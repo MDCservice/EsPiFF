@@ -53,11 +53,11 @@ We could also compile and flash the Apache Nuttx operating system on the new boa
 ### Version 3
 This is the planned final version. Additional to the fix of the 2 known issues, we plan the following:
  - adding a I2C-RTC: a real-time clock will be needed for planned PLC usage.
- - adding a 2kBy FRAM: again for PLC application, a fast and non-volatile memory is needed. It offers near infinity write/read cycles compared to flash.
- - replace the WROVER module with a version with u.FL/IPEX connector. This enables an external antenna.
+ - adding a 2kByte FRAM: again for PLC application, a fast and non-volatile memory is needed. It offers near infinity write/read cycles compared to flash.
+ - replace the WROVER module with a version with u.FL/IPEX connector. This enables an external antenna, longer range, mounting inside a metal enclosure with the antenna outside the enclosure.
  - adding a RP2040 co-processor. The ESP32 just not have enough pins free, to operate all the pins on the Raspberry Pi 40pin header. The last solution with the I2C port expander is too slow and unflexible. The much more powerfull RP2040 will solve these problem. It also offers an USB host port!
  - add a USB-A connector, to program the RP2040, and to enable to connect USB devices like keyboard, mouse, USB-sticks and so on. 
 
-After the EsPiFF is not mature enough, we we are preparing a campaign at Crowd Supply. After the Pre-launch is available, we will update the info here. Hope you support us on our Crowd Supply campaign!
+After the EsPiFF is now mature enough, we we are preparing a campaign at Crowd Supply. After the Pre-launch page will be available, we will update the info here. Hope you support us on our Crowd Supply campaign!
 
 Team MDC
