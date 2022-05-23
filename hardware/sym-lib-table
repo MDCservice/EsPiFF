@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "HR911105A")(type "Legacy")(uri "/home/iwan/kicad_libs/HR911105A.lib")(options "")(descr ""))
+  (lib (name "ESP32-GATEWAY_Rev_G")(type "Legacy")(uri "/run/user/1000/gvfs/smb-share:server=192.168.178.100,share=public/projekte/scaladis/RFID_Schrank/ESP32_Olimex_Gateway/ESP32_Ethernet/ESP32-GATEWAY_Rev_G.lib")(options "")(descr ""))
+  (lib (name "michi_new")(type "KiCad")(uri "/home/iwan/kicad_libs/michi_new.kicad_sym")(options "")(descr ""))
+)

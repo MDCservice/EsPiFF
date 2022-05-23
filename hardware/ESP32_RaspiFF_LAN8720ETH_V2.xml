@@ -1,0 +1,4179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/iwan/projects/Display/ESP32_raspiFF_LAN8720ETH_V2/ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch</source>
+    <date>Di 15 Mär 2022 15:55:03 CET</date>
+    <tool>Eeschema 6.99.0-unknown-e7f379c31d~118~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ESP32-Ethernet-Universalboard</title>
+        <company>Scaldis</company>
+        <rev>A</rev>
+        <date>2022-03-09</date>
+        <source>ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/">
+      <title_block>
+        <title>ESP32-Eternet-UniBoard</title>
+        <company>Scaldis</company>
+        <rev>A</rev>
+        <date>2021-07-03</date>
+        <source>rj45_psu_conns.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/docu/" tstamps="/fdcfcb82-7209-44d2-832d-1bff58b4cea6/">
+      <title_block>
+        <title>ESP32 uniBoard docu</title>
+        <company>Scaladis</company>
+        <rev>A</rev>
+        <date>2021-08-16</date>
+        <source>docu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PSU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>usb_2_uart.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF/6.3V/20%/X5R/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C59461</field>
+        <field name="MfgNo">CL10A226MQ8NRNC</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL10A226MQ8NRNC"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b0f1ce2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1nF/2000V/10%/X7R/C1206</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C35216</field>
+        <field name="MfgNo">CL31B102KGFNNNE</field>
+        <field name="price@1">0.03</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL31B102KGFNNNE"/>
+      <property name="price@1" value="0.03"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C35216"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000058265411</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22uF/6.3V/20%/X5R/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C59461</field>
+        <field name="MfgNo">CL10A226MQ8NRNC</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL10A226MQ8NRNC"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>462f72ca-8f61-4f3e-91f7-f44d07ec51ca</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C15849</field>
+        <field name="MfgNo">CL10A105KB8NNNC</field>
+        <field name="price@1">0.014</field>
+        <field name="price@reel">0.006</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CL10A105KB8NNNC"/>
+      <property name="price@1" value="0.014"/>
+      <property name="price@reel" value="0.006"/>
+      <property name="JCLPCB" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d308631-df40-4669-b645-a23b89fd5916</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>47uF</value>
+      <footprint>OLIMEX_RLC-FP:C_0805_5MIL_DWS</footprint>
+      <fields>
+        <field name="JCLPCB">C16780</field>
+        <field name="MfgNo">CL21A476MQYNNNE</field>
+        <field name="price@1">0.05</field>
+        <field name="price@reel">0.03</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL21A476MQYNNNE"/>
+      <property name="price@1" value="0.05"/>
+      <property name="price@reel" value="0.03"/>
+      <property name="JCLPCB" value="C16780"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44e1bf7e-1a1b-445f-8b52-8c006f77d876</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22uF/6.3V/20%/X5R/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C59461</field>
+        <field name="MfgNo">CL10A226MQ8NRNC</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL10A226MQ8NRNC"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e3cf100-c406-4d7d-9d9e-0cbdd7cc8ee0</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22uF/6.3V/20%/X5R/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C59461</field>
+        <field name="MfgNo">CL10A226MQ8NRNC</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL10A226MQ8NRNC"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C59461"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ceaa98c-bebe-45e1-9c72-3eede888f5e4</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03657d47-15ad-4c9d-a73c-9cfc310581b4</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d17155e-c6e0-41e9-9e93-8e3e6d303f04</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3534059f-d74c-434a-95b1-62401c4b4e93</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>2.2uF/6.3V/10%/X5R/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23630</field>
+        <field name="MfgNo">CL10A225KO8NNNC</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL10A225KO8NNNC"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C23630"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005813f219</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d7db52-d8e6-450c-8ae5-cf9033184995</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d89c292f-18a4-4a46-8443-6b04cdbafc8d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bd0baba-b735-4ee3-93c4-83c34ae911ca</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10u/10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB"> C19702 </field>
+        <field name="MfgNo">CL10A106KP8NNNC</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CL10A106KP8NNNC"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value=" C19702 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65daa0c4-9580-4ac9-a03a-6e6651cafd95</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10u/10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB"> C19702 </field>
+        <field name="MfgNo">CL10A106KP8NNNC</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CL10A106KP8NNNC"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value=" C19702 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37067903-542b-41d9-8393-6aa5f7b128ec</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b390405-856d-4a39-90c7-9eae546655dc</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c79f8d-b9ec-403f-8f3f-1443476678d1</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>819c8747-3dfb-4b31-ac30-fee837a7c58d</tstamps>
+    </comp>
+    <comp ref="FET1">
+      <value>WPM2015-3/TR</value>
+      <footprint>OLIMEX_Transistors-FP:SOT23</footprint>
+      <fields>
+        <field name="JCLPCB">C213159</field>
+        <field name="MfgNo">WPM2015-3/TR</field>
+        <field name="price@1">0.07</field>
+        <field name="price@reel">0.05</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="P-MOS+DIOD" description=""/>
+      <property name="MfgNo" value="WPM2015-3/TR"/>
+      <property name="price@1" value="0.07"/>
+      <property name="price@reel" value="0.05"/>
+      <property name="JCLPCB" value="C213159"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b26369e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>8P8C_LED_Shielded</value>
+      <footprint>michi1:Hanrun_HR911105A</footprint>
+      <fields>
+        <field name="JCLPCB">C12074</field>
+        <field name="MfgNo">HR911105A</field>
+        <field name="price@1">1.73</field>
+        <field name="price@reel">0.97</field>
+      </fields>
+      <libsource lib="Connector" part="8P8C_LED_Shielded" description="RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded"/>
+      <property name="MfgNo" value="HR911105A"/>
+      <property name="price@1" value="1.73"/>
+      <property name="price@reel" value="0.97"/>
+      <property name="JCLPCB" value="C12074"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acdbf5cf-8d8d-40aa-b821-08b2bb74b494</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Con1x4_TFT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JCLPCB">C541858</field>
+        <field name="MfgNo">PZ200V-11-04P</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MfgNo" value="PZ200V-11-04P"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C541858"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0fc70c2-d6f2-4a14-9ea6-a1a821da842e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Con1x4_UART0</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JCLPCB">C541858</field>
+        <field name="MfgNo">PZ200V-11-04P</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MfgNo" value="PZ200V-11-04P"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C541858"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5dbc81d-6ef5-45d9-8668-34abbdffb9cc</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Con1x15_Chafon</value>
+      <footprint>michi1:mstconn_1.25mm_15pol_ChafonRFID</footprint>
+      <fields>
+        <field name="JCLPCB">C395341</field>
+        <field name="MfgNo">AFC12-S15DCC-00</field>
+        <field name="price@1">0.15</field>
+        <field name="price@reel">0.08</field>
+      </fields>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x15_MountingPin" description="Generic connectable mounting pin connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MfgNo" value="AFC12-S15DCC-00"/>
+      <property name="price@1" value="0.15"/>
+      <property name="price@reel" value="0.08"/>
+      <property name="JCLPCB" value="C395341"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16417a2b-465f-4cfd-9f51-453873b860e6</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>JP_U0_TX</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JCLPCB">C49257</field>
+        <field name="MfgNo">C49257</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="MfgNo" value="C49257"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C49257"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50f75389-9982-4f87-991b-3689ee4ee940</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>JP_U0_RX</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JCLPCB">C49257</field>
+        <field name="MfgNo">C49257</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="MfgNo" value="C49257"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C49257"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c470b17-bb22-46c2-8574-53550586ac48</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>NA(FB0805/600R/2A)</value>
+      <footprint>OLIMEX_RLC-FP:L_0805_5MIL_DWS</footprint>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="L" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005af7b9ac</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>FB0805/600R/2A</value>
+      <footprint>OLIMEX_RLC-FP:L_0805_5MIL_DWS</footprint>
+      <fields>
+        <field name="JCLPCB">C139168</field>
+        <field name="MfgNo">CBM201209U601T</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="L" description=""/>
+      <property name="MfgNo" value="CBM201209U601T"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C139168"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000596685f8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C21190</field>
+        <field name="MfgNo">0603WAF1001T5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1001T5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C21190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b3bba74</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>148b566c-6e0c-4eca-9e05-5f8408e521c8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98b2f4b7-7a66-4558-8f6d-1d318368bd7b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0R(Board_Mounted)</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C21189</field>
+        <field name="MfgNo">0603WAF0000T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF0000T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C21189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000581ecf77</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330R/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23138</field>
+        <field name="MfgNo">0603WAF3300T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF3300T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005812f9f2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>49.9R/1%/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23185</field>
+        <field name="MfgNo">0603WAF499JT5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF499JT5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C23185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005812fbbc</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>49.9R/1%/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23185</field>
+        <field name="MfgNo">0603WAF499JT5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF499JT5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C23185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffc83666-581b-4f80-8a63-9fbf203689a8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>49.9R/1%/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23185</field>
+        <field name="MfgNo">0603WAF499JT5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF499JT5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C23185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49781563-dd77-4edc-b1e8-cb1f1ce910eb</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>49.9R/1%/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23185</field>
+        <field name="MfgNo">0603WAF499JT5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF499JT5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C23185"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a2bcd83-de98-4958-bd34-fc756c85f1d1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>330R/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23138</field>
+        <field name="MfgNo">0603WAF3300T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF3300T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C23138"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbe8b138-b7cd-4243-848c-166cb6349cc8</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>12.1k/1%/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C22864</field>
+        <field name="MfgNo">0603WAF1212T5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1212T5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C22864"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000581b5f19</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bebda4e-b5da-48c2-ac93-396c4bf2e3fd</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4184</field>
+        <field name="MfgNo">0603WAF2002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF2002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4184"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e732903-7373-4017-aba7-ab3f33d5ca2c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4190</field>
+        <field name="MfgNo">0603WAF2201T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MfgNo" value="0603WAF2201T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>115679cd-182b-4db8-a20b-9882e1ce5367</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4190</field>
+        <field name="MfgNo">0603WAF2201T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MfgNo" value="0603WAF2201T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3484d4a-2dfc-491d-91cb-0346783a565b</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4190</field>
+        <field name="MfgNo">0603WAF2201T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MfgNo" value="0603WAF2201T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>476e1301-c666-413e-afca-d1b23b2e62fd</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4190</field>
+        <field name="MfgNo">0603WAF2201T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF2201T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f84e802b-de97-427d-a643-910948d7de9f</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4190</field>
+        <field name="MfgNo">0603WAF2201T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF2201T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20493b3e-9d2d-4b6c-a4cd-a36172ce1dcf</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4190</field>
+        <field name="MfgNo">0603WAF2201T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MfgNo" value="0603WAF2201T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4296782-e554-4931-b4df-ad0a70247217</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4190</field>
+        <field name="MfgNo">0603WAF2201T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MfgNo" value="0603WAF2201T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4190"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>769fef31-8c79-4eed-93be-1973d6e52ea9</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaa5996b-d870-455b-aea2-53104c4e2e06</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>058f38db-8e0b-4ac8-8cfc-e6a412fae8d9</tstamps>
+    </comp>
+    <comp ref="RST1">
+      <value>Reset button (DNP)</value>
+      <footprint>michi1:SW_6.3x3.6</footprint>
+      <fields>
+        <field name="JCLPCB">C698192</field>
+        <field name="MfgNo">UK-B0240-R-250-JZ</field>
+        <field name="price@1">0.07</field>
+        <field name="price@reel">0.04</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="SIDE_WTCM-TR(3x4)" description=""/>
+      <property name="MfgNo" value="UK-B0240-R-250-JZ"/>
+      <property name="price@1" value="0.07"/>
+      <property name="price@reel" value="0.04"/>
+      <property name="JCLPCB" value="C698192"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7cfccab-0b5f-4f39-81f2-2e8cbf737d3f</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>DTC114YKA</value>
+      <footprint>OLIMEX_Transistors-FP:SOT23</footprint>
+      <fields>
+        <field name="JCLPCB">C112929</field>
+        <field name="MfgNo">DTC114YKAT146</field>
+        <field name="price@1">0.03</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="DTC114YKA" description=""/>
+      <property name="MfgNo" value="DTC114YKAT146"/>
+      <property name="price@1" value="0.03"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C112929"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005b19b3a8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32_WROVER_RMII</value>
+      <footprint>esp32-wrover:ESP32-WROVER</footprint>
+      <fields>
+        <field name="JCLPCB">C701349</field>
+        <field name="MfgNo">ESP32-WROVER-E(16MB)</field>
+        <field name="price@1">7.46</field>
+        <field name="price@reel">4.31</field>
+      </fields>
+      <libsource lib="michi1_copy" part="ESP32_WROVER_RMII" description=""/>
+      <property name="MfgNo" value="ESP32-WROVER-E(16MB)"/>
+      <property name="price@1" value="7.46"/>
+      <property name="price@reel" value="4.31"/>
+      <property name="JCLPCB" value="C701349"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7459d0a3-7b1d-459a-bc42-5b62b7b35a7f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LAN8720A</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf</datasheet>
+      <fields>
+        <field name="JCLPCB">C45223</field>
+        <field name="MfgNo">LAN8720A-CP-TR</field>
+        <field name="price@1">1.96</field>
+        <field name="price@reel">1.11</field>
+      </fields>
+      <libsource lib="Interface_Ethernet" part="LAN8720A" description="LAN8720 Ethernet PHY with RMII interface, QFN-24"/>
+      <property name="MfgNo" value="LAN8720A-CP-TR"/>
+      <property name="price@1" value="1.96"/>
+      <property name="price@reel" value="1.11"/>
+      <property name="JCLPCB" value="C45223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46a65abd-0a30-4218-9c11-807156fc2e27</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>74LVC1G3157</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF</datasheet>
+      <fields>
+        <field name="JCLPCB">C2681224</field>
+        <field name="MfgNo">SN74LVC1G3157DCKR</field>
+        <field name="price@1">0.09</field>
+        <field name="price@reel">0.05</field>
+      </fields>
+      <libsource lib="Analog_Switch" part="FSA3157L6X" description="Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6"/>
+      <property name="MfgNo" value="SN74LVC1G3157DCKR"/>
+      <property name="price@1" value="0.09"/>
+      <property name="price@reel" value="0.05"/>
+      <property name="JCLPCB" value="C2681224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a96589a8-7eff-4f3c-b70d-ac5960313c7c 0da98a82-cf51-4ce2-8f06-b2504c70c4bf</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>74LVC1G3157</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF</datasheet>
+      <fields>
+        <field name="JCLPCB">C2681224</field>
+        <field name="MfgNo">SN74LVC1G3157DCKR</field>
+        <field name="price@1">0.09</field>
+        <field name="price@reel">0.05</field>
+      </fields>
+      <libsource lib="Analog_Switch" part="FSA3157L6X" description="Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6"/>
+      <property name="MfgNo" value="SN74LVC1G3157DCKR"/>
+      <property name="price@1" value="0.09"/>
+      <property name="price@reel" value="0.05"/>
+      <property name="JCLPCB" value="C2681224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dff38ade-0984-4da9-b2fc-6e74b63002c1 1aea6040-1380-44f6-a30d-a34c7042ee5d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>74LVC1G3157</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF</datasheet>
+      <fields>
+        <field name="JCLPCB">C2681224</field>
+        <field name="MfgNo">SN74LVC1G3157DCKR</field>
+        <field name="price@1">0.09</field>
+        <field name="price@reel">0.05</field>
+      </fields>
+      <libsource lib="Analog_Switch" part="FSA3157L6X" description="Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6"/>
+      <property name="MfgNo" value="SN74LVC1G3157DCKR"/>
+      <property name="price@1" value="0.09"/>
+      <property name="price@reel" value="0.05"/>
+      <property name="JCLPCB" value="C2681224"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af5b806b-f54f-4f06-8514-d1b6c650ea21 a45bcf1c-09c1-4a3f-a64e-61b98d06aaa4</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>OSc 50MHz</value>
+      <footprint>Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm</footprint>
+      <datasheet>http://www.abracon.com/Oscillators/ASV.pdf</datasheet>
+      <fields>
+        <field name="JCLPCB">C717684</field>
+        <field name="MfgNo">OT322550MJBA4SL</field>
+        <field name="price@1">0.83</field>
+        <field name="price@reel">0.5</field>
+      </fields>
+      <libsource lib="Oscillator" part="ASE-xxxMHz" description="3.3V CMOS SMD Crystal Clock Oscillator, Abracon"/>
+      <property name="MfgNo" value="OT322550MJBA4SL"/>
+      <property name="price@1" value="0.83"/>
+      <property name="price@reel" value="0.5"/>
+      <property name="JCLPCB" value="C717684"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ESP32_RaspiFF_LAN8720ETH_V2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34163d7b-4b72-4cd9-9f57-94f20f4cf01c</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>cd65aa12-c2ee-40d2-926b-f51be789b87d</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>7c4392d9-2e7e-4ad8-b3cf-6bd7aa20768d</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>780ee8d9-13c1-4db3-9cc1-89fe4ff71916</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>17271c24-dbd5-4377-99f5-b92a076e360a</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>FB 800mA</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C1015</field>
+        <field name="MfgNo">GZ2012D101TF</field>
+        <field name="price@1">0.01</field>
+        <field name="price@reel">0.007</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead_Small" description="Ferrite bead, small symbol"/>
+      <property name="MfgNo" value="GZ2012D101TF"/>
+      <property name="price@1" value="0.01"/>
+      <property name="price@reel" value="0.007"/>
+      <property name="JCLPCB" value="C1015"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>c3abae84-066f-439b-a970-32ccbefd5a7e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SDcard_moles</value>
+      <footprint>molex_sdcard:MOLEX_503398-1892</footprint>
+      <fields>
+        <field name="JCLPCB">C428492</field>
+        <field name="MfgNo">5033981892</field>
+        <field name="price@1">0.8</field>
+        <field name="price@reel">0.43</field>
+      </fields>
+      <libsource lib="michi1_copy" part="SDcard_moles" description=""/>
+      <property name="MfgNo" value="5033981892"/>
+      <property name="price@1" value="0.8"/>
+      <property name="price@reel" value="0.43"/>
+      <property name="JCLPCB" value="C428492"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>a20496a4-4f6b-4aa6-87d8-99ab29acb67a</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Raspi-40pin_header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JCLPCB">C124383</field>
+        <field name="MfgNo">B-2100S40P-B110</field>
+        <field name="price@1">0.19</field>
+        <field name="price@reel">0.12</field>
+      </fields>
+      <libsource lib="michi_new" part="obsidian-esp32_P40" description=""/>
+      <property name="MfgNo" value="B-2100S40P-B110"/>
+      <property name="price@1" value="0.19"/>
+      <property name="price@reel" value="0.12"/>
+      <property name="JCLPCB" value="C124383"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>8635d6e2-4b1e-4b47-a5eb-aebf0118592f</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>JP_5VtoHat</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Open" description="Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>373c238b-543a-41cb-8003-2936d664043d</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>a04e0c84-acb4-4b1b-a1d2-033d7c978fda</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>9d2266d3-e163-475d-afd5-afe91e8a8443</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>001af463-d736-4cc0-b221-a10268193c7d</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>c6f43c7c-8fc2-4bb0-8836-fd107ccc407d</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>f5013bd6-d3ab-4233-a34d-8c442b252d9b</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>b0a8d625-1a23-4b9b-b2bf-e5712d0b6010</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>5663dc69-82b0-4065-bd8e-2d308c5a2ce2</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>f7b28ce2-1cc7-40b6-b6ec-b58ff62d6e61</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AW9523B</value>
+      <footprint>Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <fields>
+        <field name="JCLPCB">C148077</field>
+        <field name="MfgNo">AW9523BTQR</field>
+        <field name="price@1">0.51</field>
+        <field name="price@reel">0.28</field>
+      </fields>
+      <libsource lib="michi1_copy" part="AW9523B" description=""/>
+      <property name="MfgNo" value="AW9523BTQR"/>
+      <property name="price@1" value="0.51"/>
+      <property name="price@reel" value="0.28"/>
+      <property name="JCLPCB" value="C148077"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>e798c4e2-f084-44b9-ad96-bc110f030064</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AW9523B</value>
+      <footprint>Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <fields>
+        <field name="JCLPCB">C148077</field>
+        <field name="MfgNo">AW9523BTQR</field>
+        <field name="price@1">0.51</field>
+        <field name="price@reel">0.28</field>
+      </fields>
+      <libsource lib="michi1_copy" part="AW9523B" description=""/>
+      <property name="MfgNo" value="AW9523BTQR"/>
+      <property name="price@1" value="0.51"/>
+      <property name="price@reel" value="0.28"/>
+      <property name="JCLPCB" value="C148077"/>
+      <property name="Sheetname" value="Header Pi"/>
+      <property name="Sheetfile" value="rj45_psu_conns.kicad_sch"/>
+      <sheetpath names="/Header Pi/" tstamps="/9057fb8d-c749-4d10-8ac1-723bbc90c237/"/>
+      <tstamps>3b0b21bd-95f6-4a1d-9af6-bd336cff8134</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>100u/35V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="JCLPCB">C125975</field>
+        <field name="MfgNo">UWT1V101MCL1GS</field>
+        <field name="price@1">0.12</field>
+        <field name="price@reel">0.08</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MfgNo" value="UWT1V101MCL1GS"/>
+      <property name="price@1" value="0.12"/>
+      <property name="price@reel" value="0.08"/>
+      <property name="JCLPCB" value="C125975"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>7f2fe2df-ba2f-4275-9fcb-b7ed8bcef68e</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C13585</field>
+        <field name="MfgNo">CL31A106KBHNNNE</field>
+        <field name="price@1">0.03</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CL31A106KBHNNNE"/>
+      <property name="price@1" value="0.03"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C13585"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>f46502f0-effa-47ed-ba8b-d884cc22a5f0</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>47uF/6.3V/20%/X5R/C0805</value>
+      <footprint>OLIMEX_RLC-FP:C_0805_5MIL_DWS</footprint>
+      <fields>
+        <field name="JCLPCB">C16780</field>
+        <field name="MfgNo">CL21A476MQYNNNE</field>
+        <field name="price@1">0.05</field>
+        <field name="price@reel">0.03</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL21A476MQYNNNE"/>
+      <property name="price@1" value="0.05"/>
+      <property name="price@reel" value="0.03"/>
+      <property name="JCLPCB" value="C16780"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>5fe92623-6886-4ff3-8d10-3e816bf86cb3</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>47uF/6.3V/20%/X5R/C0805</value>
+      <footprint>OLIMEX_RLC-FP:C_0805_5MIL_DWS</footprint>
+      <fields>
+        <field name="Fieldname 1">CL21A476MQYNNNE</field>
+        <field name="JCLPCB">C16780</field>
+        <field name="price@1">0.05</field>
+        <field name="price@reel">0.03</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="Fieldname 1" value="CL21A476MQYNNNE"/>
+      <property name="price@1" value="0.05"/>
+      <property name="price@reel" value="0.03"/>
+      <property name="JCLPCB" value="C16780"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>11c3c5e3-4080-4e42-b789-34b701db607e</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>22n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>a5b15f52-f35a-41f8-b81a-dd7e9eee0067</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>2bf99c29-f1b6-4711-a769-28fb8bad794c</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C15849</field>
+        <field name="MfgNo">CL10A105KB8NNNC</field>
+        <field name="price@1">0.014</field>
+        <field name="price@reel">0.006</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CL10A105KB8NNNC"/>
+      <property name="price@1" value="0.014"/>
+      <property name="price@reel" value="0.006"/>
+      <property name="JCLPCB" value="C15849"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>88db7c5b-799d-4f81-8c25-1d2f106add5a</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>180p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C107041</field>
+        <field name="MfgNo">CC0603JRNPO9BN181</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603JRNPO9BN181"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.004"/>
+      <property name="JCLPCB" value="C107041"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>8ec74b05-5eb1-4a76-89ef-6c236007ae40</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>22u/25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C602037</field>
+        <field name="MfgNo">CL21A226MAYNNNE</field>
+        <field name="price@1">0.03</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CL21A226MAYNNNE"/>
+      <property name="price@1" value="0.03"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C602037"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>28a7da64-8fc2-4f2d-bef0-dc4fa7afe70d</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C1634</field>
+        <field name="MfgNo">CL10C100JB8NNNC</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CL10C100JB8NNNC"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.004"/>
+      <property name="JCLPCB" value="C1634"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>35cfe131-de98-4f50-90f6-5f6805cae912</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>22u/25V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C602037</field>
+        <field name="MfgNo">CL21A226MAYNNNE</field>
+        <field name="price@1">0.03</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CL21A226MAYNNNE"/>
+      <property name="price@1" value="0.03"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C602037"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>a2b88027-f5ce-4ad6-9727-77ebbe5e3b73</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>47uF/6.3V/20%/X5R/C0805</value>
+      <footprint>OLIMEX_RLC-FP:C_0805_5MIL_DWS</footprint>
+      <fields>
+        <field name="JCLPCB">C16780</field>
+        <field name="MfgNo">CL21A476MQYNNNE</field>
+        <field name="price@1">0.05</field>
+        <field name="price@reel">0.03</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL21A476MQYNNNE"/>
+      <property name="price@1" value="0.05"/>
+      <property name="price@reel" value="0.03"/>
+      <property name="JCLPCB" value="C16780"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>08105b7a-9b2d-4404-bfc4-c7755ba98608</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>220u/16V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="JCLPCB">C3342</field>
+        <field name="MfgNo">RVT1C221M0607</field>
+        <field name="price@1">0.06</field>
+        <field name="price@reel">0.04</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MfgNo" value="RVT1C221M0607"/>
+      <property name="price@1" value="0.06"/>
+      <property name="price@reel" value="0.04"/>
+      <property name="JCLPCB" value="C3342"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>117c4e2a-5aec-4bad-a212-b2f954c39954</tstamps>
+    </comp>
+    <comp ref="CM1">
+      <value>CM4A</value>
+      <footprint>michi1:CommonMode_SMD_5x4.5mm</footprint>
+      <fields>
+        <field name="JCLPCB">C254910</field>
+        <field name="MfgNo">SMW5045S601NTT</field>
+        <field name="price@1">0.6</field>
+        <field name="price@reel">0.31</field>
+      </fields>
+      <libsource lib="Device" part="Transformer_1P_1S" description="Transformer, single primary, single secondary"/>
+      <property name="MfgNo" value="SMW5045S601NTT"/>
+      <property name="price@1" value="0.6"/>
+      <property name="price@reel" value="0.31"/>
+      <property name="JCLPCB" value="C254910"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>4badad9a-02ec-4d2b-8044-0e48515ca2d5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5822/SS34/SMA</value>
+      <footprint>OLIMEX_Diodes-FP:SMA-KA</footprint>
+      <fields>
+        <field name="JCLPCB">C8678</field>
+        <field name="MfgNo">SS34</field>
+        <field name="price@1">0.07</field>
+        <field name="price@reel">0.04</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="D_Schottky" description=""/>
+      <property name="MfgNo" value="SS34"/>
+      <property name="price@1" value="0.07"/>
+      <property name="price@reel" value="0.04"/>
+      <property name="JCLPCB" value="C8678"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>7dfb1d31-cb32-4ff6-9374-c4610c56c9f5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SMBJ6.0A(DO-214AA)</value>
+      <footprint>OLIMEX_Diodes-FP:DO214AA_1(K)-2(A)</footprint>
+      <fields>
+        <field name="JCLPCB">C113977</field>
+        <field name="MfgNo">SMBJ6.0CA</field>
+        <field name="price@1">0.06</field>
+        <field name="price@reel">0.04</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="SMBJ6.0A" description=""/>
+      <property name="MfgNo" value="SMBJ6.0CA"/>
+      <property name="price@1" value="0.06"/>
+      <property name="price@reel" value="0.04"/>
+      <property name="JCLPCB" value="C113977"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>895183bb-0541-4438-a2d0-54b724816813</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SS34</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="JCLPCB">C8678</field>
+        <field name="MfgNo">SS34</field>
+        <field name="price@1">0.05</field>
+        <field name="price@reel">0.03</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="MfgNo" value="SS34"/>
+      <property name="price@1" value="0.05"/>
+      <property name="price@reel" value="0.03"/>
+      <property name="JCLPCB" value="C8678"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>1339f2ae-239e-44b1-8114-665f347c235a</tstamps>
+    </comp>
+    <comp ref="FET2">
+      <value>WPM2015-3/TR</value>
+      <footprint>OLIMEX_Transistors-FP:SOT23</footprint>
+      <fields>
+        <field name="JCLPCB">C213159</field>
+        <field name="MfgNo">WPM2015-3/TR</field>
+        <field name="price@1">0.07</field>
+        <field name="price@reel">0.05</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="P-MOS+DIOD" description=""/>
+      <property name="MfgNo" value="WPM2015-3/TR"/>
+      <property name="price@1" value="0.07"/>
+      <property name="price@reel" value="0.05"/>
+      <property name="JCLPCB" value="C213159"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>3fd532eb-bbbd-4beb-beff-e7e05c862150</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Con1x2</value>
+      <footprint>michi1:KF301-5.0-2P</footprint>
+      <fields>
+        <field name="JCLPCB">C474881</field>
+        <field name="MfgNo">KF301-5.0-2P</field>
+        <field name="price@1">0.1</field>
+        <field name="price@reel">0.06</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MfgNo" value="KF301-5.0-2P"/>
+      <property name="price@1" value="0.1"/>
+      <property name="price@reel" value="0.06"/>
+      <property name="JCLPCB" value="C474881"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>525dd40f-70d8-402e-81d6-92347902f5fb</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>4u7</value>
+      <footprint>Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm</footprint>
+      <fields>
+        <field name="JCLPCB">C76857</field>
+        <field name="MfgNo">SPM6530T-4R7M</field>
+        <field name="price@1">0.17</field>
+        <field name="price@reel">0.11</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="MfgNo" value="SPM6530T-4R7M"/>
+      <property name="price@1" value="0.17"/>
+      <property name="price@reel" value="0.11"/>
+      <property name="JCLPCB" value="C76857"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>2a154ec7-4684-485a-94a6-bfba8e47f762</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>LED/red</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C84256</field>
+        <field name="MfgNo">NCD0805R1</field>
+        <field name="price@1">0.04</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="LED" description=""/>
+      <property name="MfgNo" value="NCD0805R1"/>
+      <property name="price@1" value="0.04"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C84256"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>aaae8745-a3e6-48fa-a638-74b6df0f47e3</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>LED/yellow</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C72038</field>
+        <field name="MfgNo">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.014</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="LED" description=""/>
+      <property name="MfgNo" value="19-213/Y2C-CQ2R2L/3T(CY)"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.014"/>
+      <property name="JCLPCB" value="C72038"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>89dd11dd-12d8-48d4-8031-8b79118792c5</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>LED/green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C72043</field>
+        <field name="MfgNo">19-217/GHC-YR1S2/3T</field>
+        <field name="price@1">0.04</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="LED" description=""/>
+      <property name="MfgNo" value="19-217/GHC-YR1S2/3T"/>
+      <property name="price@1" value="0.04"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C72043"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>06009ad0-6071-42f5-ab10-8d62deaddd20</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1M/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C22935</field>
+        <field name="MfgNo">0603WAF1004T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1004T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C22935"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>81f81f01-59ca-484e-8068-f8729a02fe63</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>12k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C22790</field>
+        <field name="MfgNo">0603WAF1202T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1202T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C22790"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>863f9e65-4264-4b17-9a3c-a4bf0b45d4ba</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23162</field>
+        <field name="MfgNo">0603WAF4701T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF4701T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C23162"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>a7787299-9d16-4dee-b8d7-f94e1ab8b6ae</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4184</field>
+        <field name="MfgNo">0603WAF2002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF2002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4184"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>f96132da-8cf1-455d-90a5-b36eab213c26</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>4bd1a34e-a400-46d6-a43b-690e428dd0db</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>1Meg</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C22935</field>
+        <field name="MfgNo">0603WAF1004T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1004T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C22935"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>e873dc2d-1e8a-43d2-a2c7-7f9aa83033c0</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>75k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C23242</field>
+        <field name="MfgNo">0603WAF7502T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF7502T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C23242"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>b4b8a7b4-46f3-45e7-935d-f583f95e951b</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>3k3</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C22978</field>
+        <field name="MfgNo">0603WAF3301T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF3301T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C22978"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>efee9c67-ff9a-42b1-b983-f41f4472ca79</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>5b4d0991-8df8-487e-bd66-3e56bee100c8</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>2k2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C4177</field>
+        <field name="MfgNo">0603WAF1801T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="MfgNo" value="0603WAF1801T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C4177"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>bc602c2c-7d18-4629-8a29-1472f5fcdccd</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TPS54332</value>
+      <footprint>Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm</footprint>
+      <fields>
+        <field name="JCLPCB">C41312</field>
+        <field name="MfgNo">TPS54332DDAR</field>
+        <field name="price@1">1.25</field>
+        <field name="price@reel">0.68</field>
+      </fields>
+      <libsource lib="michi1_copy" part="TPS54531" description=""/>
+      <property name="MfgNo" value="TPS54332DDAR"/>
+      <property name="price@1" value="1.25"/>
+      <property name="price@reel" value="0.68"/>
+      <property name="JCLPCB" value="C41312"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>0d9d24a7-1d12-4268-9267-95e7bf42c464</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>ME6211C</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tlv700.pdf</datasheet>
+      <fields>
+        <field name="JCLPCB">C82942</field>
+        <field name="MfgNo">ME6211C33M5G-N</field>
+        <field name="price@1">0.08</field>
+        <field name="price@reel">0.05</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="TLV70012_SOT23-5" description="200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5"/>
+      <property name="MfgNo" value="ME6211C33M5G-N"/>
+      <property name="price@1" value="0.08"/>
+      <property name="price@reel" value="0.05"/>
+      <property name="JCLPCB" value="C82942"/>
+      <property name="Sheetname" value="PSU"/>
+      <property name="Sheetfile" value="PSU.kicad_sch"/>
+      <sheetpath names="/PSU/" tstamps="/9d0c05e0-7440-4d58-bdb2-b98688f76ae2/"/>
+      <tstamps>5b9d2404-0f9c-4867-aa21-67bc792f67b2</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>22uF/6.3V/20%/X5R/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C59461</field>
+        <field name="MfgNo">CL10A226MQ8NRNC</field>
+        <field name="price@1">0.02</field>
+        <field name="price@reel">0.01</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL10A226MQ8NRNC"/>
+      <property name="price@1" value="0.02"/>
+      <property name="price@reel" value="0.01"/>
+      <property name="JCLPCB" value="C59461"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>95f70a12-11d6-42ba-a46e-5a340632e937</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>27pF/50V/5%/C0G/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C1656</field>
+        <field name="MfgNo">CL10C270JB8NNNC</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL10C270JB8NNNC"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C1656"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>7c3eb668-cab9-410e-aa30-e40c1dc5132c</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>27pF/50V/5%/C0G/C0603</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C1656</field>
+        <field name="MfgNo">CL10C270JB8NNNC</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="C" description=""/>
+      <property name="MfgNo" value="CL10C270JB8NNNC"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C1656"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>f1f4e3cf-7418-4df4-b73e-abda8fa122fb</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C14663</field>
+        <field name="MfgNo">CC0603KRX7R9BB104</field>
+        <field name="price@1">0.007</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MfgNo" value="CC0603KRX7R9BB104"/>
+      <property name="price@1" value="0.007"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C14663"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>743ad91b-21d2-40e3-98c8-b9efb9b69d4c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JCLPCB">C440261</field>
+        <field name="MfgNo">1N5819WS</field>
+        <field name="price@1">0.04</field>
+        <field name="price@reel">0.03</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="D_Schottky" description=""/>
+      <property name="MfgNo" value="1N5819WS"/>
+      <property name="price@1" value="0.04"/>
+      <property name="price@reel" value="0.03"/>
+      <property name="JCLPCB" value="C440261"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>8b0fe0a7-33a9-4c8b-a8df-a64116c45323</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N5819S4/SOD123</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <fields>
+        <field name="JCLPCB">C440261</field>
+        <field name="MfgNo">1N5819WS</field>
+        <field name="price@1">0.04</field>
+        <field name="price@reel">0.03</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="D_Schottky" description=""/>
+      <property name="MfgNo" value="1N5819WS"/>
+      <property name="price@1" value="0.04"/>
+      <property name="price@reel" value="0.03"/>
+      <property name="JCLPCB" value="C440261"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>72579612-1af7-4d37-94e8-a397b890ffa4</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BAT54C(SOT23-3)</value>
+      <footprint>OLIMEX_Diodes-FP:SOT23-3</footprint>
+      <fields>
+        <field name="JCLPCB">C37704</field>
+        <field name="MfgNo">BAT54C,215</field>
+        <field name="price@1">0.04</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="BAT54C(SOT23-3)" description=""/>
+      <property name="MfgNo" value="BAT54C,215"/>
+      <property name="price@1" value="0.04"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C37704"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>0de52340-886d-4565-beeb-efe5ea1a4ffb</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>USB_B_Micro</value>
+      <footprint>michi1:USB_microB_Jing-920-E52A202S10100</footprint>
+      <fields>
+        <field name="JCLPCB">C10418</field>
+        <field name="MfgNo">920-E52A2021S10100</field>
+        <field name="price@1">0.06</field>
+        <field name="price@reel">0.04</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="MfgNo" value="920-E52A2021S10100"/>
+      <property name="price@1" value="0.06"/>
+      <property name="price@reel" value="0.04"/>
+      <property name="JCLPCB" value="C10418"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>9bad1013-d0fd-4b08-b871-f261f5849474</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>ToolingHole</value>
+      <footprint>michi1:JLCPCB_toolingHole_1.152mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>7a4619c8-8b62-4d30-aaed-056f3ab80231</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>ToolingHole</value>
+      <footprint>michi1:JLCPCB_toolingHole_1.152mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>d08d3089-286a-4d37-a7c3-25f6ca8dcb98</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>ToolingHole</value>
+      <footprint>michi1:JLCPCB_toolingHole_1.152mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>1967703e-311e-458e-844d-4ade3db10531</tstamps>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <footprint>michi1:MountingHole_3.2mmNPTH</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>92cbca6c-dc93-40cb-8d1c-3d25e248f5c4</tstamps>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <footprint>michi1:MountingHole_3.2mmNPTH</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>33c9aaad-25cf-45c5-b9e0-e901378ef18a</tstamps>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <footprint>michi1:MountingHole_3.2mmNPTH</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>1fd2a87b-bb3c-4272-87d2-1ca5f8cb298f</tstamps>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <footprint>michi1:MountingHole_3.2mmNPTH</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>a83f9523-5d85-47d1-a51d-8b2ca6a4240b</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC817-40(SOT23)</value>
+      <footprint>OLIMEX_Transistors-FP:SOT23</footprint>
+      <fields>
+        <field name="JCLPCB">C146798</field>
+        <field name="MfgNo">BC817-40LT3G</field>
+        <field name="price@1">0.04</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="Q_NPN_BEC" description=""/>
+      <property name="MfgNo" value="BC817-40LT3G"/>
+      <property name="price@1" value="0.04"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C146798"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>4d025de0-b8a9-45c6-a8dc-81855daf887f</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC817-40(SOT23)</value>
+      <footprint>OLIMEX_Transistors-FP:SOT23</footprint>
+      <fields>
+        <field name="JCLPCB">C146798</field>
+        <field name="MfgNo">BC817-40LT3G</field>
+        <field name="price@1">0.04</field>
+        <field name="price@reel">0.02</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="Q_NPN_BEC" description=""/>
+      <property name="MfgNo" value="BC817-40LT3G"/>
+      <property name="price@1" value="0.04"/>
+      <property name="price@reel" value="0.02"/>
+      <property name="JCLPCB" value="C146798"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>4f940e48-557c-4d14-ba80-8e7f128eec2a</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>10k/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>b84e1ca8-15c3-44b6-9537-d0642371cebb</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>10k/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C25804</field>
+        <field name="MfgNo">0603WAF1002T5E</field>
+        <field name="price@1">0.003</field>
+        <field name="price@reel">0.001</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1002T5E"/>
+      <property name="price@1" value="0.003"/>
+      <property name="price@reel" value="0.001"/>
+      <property name="JCLPCB" value="C25804"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>c102ca0c-21fd-4339-b666-8f29a2151c79</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>1k/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C21190</field>
+        <field name="MfgNo">0603WAF1001T5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1001T5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C21190"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>4bffd317-21e3-4eee-8169-3adb678cd13f</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>1k/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C21190</field>
+        <field name="MfgNo">0603WAF1001T5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF1001T5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C21190"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>3be5b4c6-a08f-4d7f-a1fe-4b313cedd67d</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>220R/R0603</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JCLPCB">C22962</field>
+        <field name="MfgNo">0603WAF2200T5E</field>
+        <field name="price@1">0.008</field>
+        <field name="price@reel">0.003</field>
+      </fields>
+      <libsource lib="ESP32-GATEWAY_Rev_G" part="R" description=""/>
+      <property name="MfgNo" value="0603WAF2200T5E"/>
+      <property name="price@1" value="0.008"/>
+      <property name="price@reel" value="0.003"/>
+      <property name="JCLPCB" value="C22962"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>96e14800-4228-4ea2-a3de-faa5f103936a</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>CH340T</value>
+      <footprint>OLIMEX_IC-FP:SSOP-20W</footprint>
+      <fields>
+        <field name="JCLPCB">C8689</field>
+        <field name="MfgNo">CH340T</field>
+        <field name="price@1">0.5</field>
+        <field name="price@reel">0.36</field>
+      </fields>
+      <libsource lib="michi1_copy" part="CH340_NC" description=""/>
+      <property name="MfgNo" value="CH340T"/>
+      <property name="price@1" value="0.5"/>
+      <property name="price@reel" value="0.36"/>
+      <property name="JCLPCB" value="C8689"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>53120743-1b95-45a5-bdbe-107f2de4c00c</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_12Mhz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="JCLPCB">C258939</field>
+        <field name="MfgNo">M12000J134</field>
+        <field name="price@1">0.12</field>
+        <field name="price@reel">0.07</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <property name="MfgNo" value="M12000J134"/>
+      <property name="price@1" value="0.12"/>
+      <property name="price@reel" value="0.07"/>
+      <property name="JCLPCB" value="C258939"/>
+      <property name="Sheetname" value="usb_2_uart"/>
+      <property name="Sheetfile" value="usb_2_uart.kicad_sch"/>
+      <sheetpath names="/usb_2_uart/" tstamps="/0069401c-b3ee-4f93-9b22-6a7d744c400c/"/>
+      <tstamps>1c31e353-f722-46b8-9f95-74a2f14d0536</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_Switch" part="FSA3157L6X">
+      <description>Single SPDT Low-Voltage Analog Switch or 2:1 Multiplexer/De-Multiplexer Bus Switch, 10Ohm Ron, MicroPak-6</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF</docs>
+      <footprints>
+        <fp>Fairchild*MicroPak*1.0x1.45mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FSA3157L6X</field>
+        <field name="Footprint">Package_SON:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NC7SB3157-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="V+" type="power_in"/>
+        <pin num="6" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="8P8C_LED_Shielded">
+      <description>RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ45*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">8P8C_LED_Shielded</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="SH" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x15_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x15_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead_Small">
+      <description>Ferrite bead, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Transformer_1P_1S">
+      <description>Transformer, single primary, single secondary</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_1P_1S</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="BAT54C(SOT23-3)">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54C(SOT23-3)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="CC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="DTC114YKA">
+      <footprints>
+        <fp>*SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">DTC114YKA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="D_Schottky">
+      <footprints>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>Diode_*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="P-MOS+DIOD">
+      <fields>
+        <field name="Reference">FET</field>
+        <field name="Value">P-MOS+DIOD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="Q_NPN_BEC">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="SIDE_WTCM-TR(3x4)">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SIDE_WTCM-TR(3x4)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-GATEWAY_Rev_G" part="SMBJ6.0A">
+      <footprints>
+        <fp>*DO214AA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMBJ6.0A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Ethernet" part="LAN8720A">
+      <description>LAN8720 Ethernet PHY with RMII interface, QFN-24</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LAN8720A</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD2A" type="power_in"/>
+        <pin num="2" name="LED2/nINTSEL" type="bidirectional"/>
+        <pin num="3" name="LED1/REGOFF" type="bidirectional"/>
+        <pin num="4" name="XTAL2" type="passive"/>
+        <pin num="5" name="XTAL1/CLKIN" type="passive"/>
+        <pin num="6" name="VDDCR" type="power_in"/>
+        <pin num="7" name="RXD1/MODE1" type="output"/>
+        <pin num="8" name="RXD0/MODE0" type="output"/>
+        <pin num="9" name="VDDIO" type="power_in"/>
+        <pin num="10" name="RXER/PHYAD0" type="output"/>
+        <pin num="11" name="CRS_DV/MODE2" type="output"/>
+        <pin num="12" name="MDIO" type="bidirectional"/>
+        <pin num="13" name="MDC" type="input"/>
+        <pin num="14" name="INT/REFCLKO" type="output"/>
+        <pin num="15" name="RST" type="input"/>
+        <pin num="16" name="TXEN" type="input"/>
+        <pin num="17" name="TXD0" type="input"/>
+        <pin num="18" name="TXD1" type="input"/>
+        <pin num="19" name="VDD1A" type="power_in"/>
+        <pin num="20" name="TXN" type="output"/>
+        <pin num="21" name="TXP" type="output"/>
+        <pin num="22" name="RXN" type="output"/>
+        <pin num="23" name="RXP" type="output"/>
+        <pin num="24" name="RBIAS" type="input"/>
+        <pin num="25" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Open">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Oscillator" part="ASE-xxxMHz">
+      <description>3.3V CMOS SMD Crystal Clock Oscillator, Abracon</description>
+      <docs>http://www.abracon.com/Oscillators/ASV.pdf</docs>
+      <footprints>
+        <fp>Oscillator*SMD*Abracon*ASE*3.2x2.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ASE-xxxMHz</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet">http://www.abracon.com/Oscillators/ASV.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TLV70012_SOT23-5">
+      <description>200mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv700.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV70012_SOT23-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tlv700.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="michi1_copy" part="AW9523B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AW9523B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1_0" type="passive"/>
+        <pin num="2" name="P1_1" type="passive"/>
+        <pin num="3" name="P1_2" type="passive"/>
+        <pin num="4" name="P1_3" type="passive"/>
+        <pin num="5" name="P0_0" type="passive"/>
+        <pin num="6" name="P0_1" type="passive"/>
+        <pin num="7" name="P0_2" type="passive"/>
+        <pin num="8" name="P0_3" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="P0_4" type="passive"/>
+        <pin num="11" name="P0_5" type="passive"/>
+        <pin num="12" name="P0_6" type="passive"/>
+        <pin num="13" name="P0_7" type="passive"/>
+        <pin num="14" name="P1_4" type="passive"/>
+        <pin num="15" name="P1_5" type="passive"/>
+        <pin num="16" name="P1_6" type="passive"/>
+        <pin num="17" name="P1_7" type="passive"/>
+        <pin num="18" name="AD0" type="passive"/>
+        <pin num="19" name="SCL" type="passive"/>
+        <pin num="20" name="SDA" type="passive"/>
+        <pin num="21" name="VCC" type="passive"/>
+        <pin num="22" name="nINT_OD" type="passive"/>
+        <pin num="23" name="nRST" type="passive"/>
+        <pin num="24" name="AD1" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="michi1_copy" part="CH340_NC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340_NC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CK0" type="passive"/>
+        <pin num="2" name="ACT#" type="passive"/>
+        <pin num="3" name="TXD" type="output"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="V3" type="power_in"/>
+        <pin num="6" name="UD+" type="bidirectional"/>
+        <pin num="7" name="UD-" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="XI" type="input"/>
+        <pin num="10" name="XO" type="output"/>
+        <pin num="11" name="CTS#" type="input"/>
+        <pin num="12" name="DSR#" type="input"/>
+        <pin num="13" name="RI#" type="input"/>
+        <pin num="14" name="DCD#" type="input"/>
+        <pin num="15" name="DTR#" type="output"/>
+        <pin num="16" name="RTS#" type="output"/>
+        <pin num="17" name="IR#" type="input"/>
+        <pin num="18" name="RS232" type="passive"/>
+        <pin num="19" name="VCC" type="power_in"/>
+        <pin num="20" name="NOS#" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="michi1_copy" part="ESP32_WROVER_RMII">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32_WROVER_RMII</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN(high=run)" type="input"/>
+        <pin num="4" name="IO36" type="input"/>
+        <pin num="5" name="IO39" type="input"/>
+        <pin num="6" name="ADC6/IO34" type="input"/>
+        <pin num="7" name="ADC7/IO35" type="input"/>
+        <pin num="8" name="IO32" type="bidirectional"/>
+        <pin num="9" name="IO33" type="bidirectional"/>
+        <pin num="10" name="GPIO25\EMAC_RXD0(RMII)" type="bidirectional"/>
+        <pin num="11" name="GPIO26\EMAC_RXD1(RMII)" type="bidirectional"/>
+        <pin num="12" name="GPIO27\EMAC_RX_CRS_DV" type="bidirectional"/>
+        <pin num="13" name="SPI_SCK/MTMS/IO14" type="bidirectional"/>
+        <pin num="14" name="pd/IO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="SPI_CS/MTCK/IO13" type="bidirectional"/>
+        <pin num="17" name="SHD/SD2" type="no_connect"/>
+        <pin num="18" name="SWP/SD3" type="no_connect"/>
+        <pin num="19" name="SCS/CMD" type="no_connect"/>
+        <pin num="20" name="SCK/CLK" type="no_connect"/>
+        <pin num="21" name="SDO/SD0" type="no_connect"/>
+        <pin num="22" name="SDI/SD1" type="no_connect"/>
+        <pin num="23" name="pu/SPI_MOSI/MTDO/IO15" type="bidirectional"/>
+        <pin num="24" name="pd/GPIO2/MISO" type="bidirectional"/>
+        <pin num="25" name="pu/EMAC_TX_CLK/IO0" type="bidirectional"/>
+        <pin num="26" name="pd/U1TXD/IO4" type="bidirectional"/>
+        <pin num="27" name="-" type="no_connect"/>
+        <pin num="28" name="-" type="no_connect"/>
+        <pin num="29" name="pu/IO5" type="bidirectional"/>
+        <pin num="30" name="GPIO18\MDIO(RMII)" type="bidirectional"/>
+        <pin num="31" name="GPIO19\EMAC_TXD0(RMII)" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="GPIO21\EMAC_TX_EN(RMII)" type="bidirectional"/>
+        <pin num="34" name="U0RXD/IO3" type="bidirectional"/>
+        <pin num="35" name="U0TXD/IO1" type="bidirectional"/>
+        <pin num="36" name="GPIO22\EMAC_TXD1(RMII)" type="bidirectional"/>
+        <pin num="37" name="GPIO23\MDC(RMII)" type="bidirectional"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="michi1_copy" part="SDcard_moles">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SDcard_moles</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="input"/>
+        <pin num="2" name="CD/DAT3" type="input"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="input"/>
+        <pin num="8" name="DAT1" type="input"/>
+        <pin num="9" name="CARD_DETECT" type="input"/>
+        <pin num="10" name="WRITE_PROTECT" type="input"/>
+        <pin num="P1" name="SHELL1" type="passive"/>
+        <pin num="P2" name="SHELL2" type="passive"/>
+        <pin num="P3" name="SHELL3" type="passive"/>
+        <pin num="P4" name="SHELL4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="michi1_copy" part="TPS54531">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS54531</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="passive"/>
+        <pin num="2" name="Vin" type="passive"/>
+        <pin num="3" name="EN" type="passive"/>
+        <pin num="4" name="SS" type="passive"/>
+        <pin num="5" name="Vsense" type="passive"/>
+        <pin num="6" name="COMP" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="PH" type="passive"/>
+        <pin num="9" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="michi_new" part="obsidian-esp32_P40">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">obsidian-esp32_P40</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3_out" type="passive"/>
+        <pin num="2" name="5V_in" type="passive"/>
+        <pin num="3" name="IO33(Pi=SDA)" type="passive"/>
+        <pin num="4" name="5V_in" type="passive"/>
+        <pin num="5" name="IO32(Pi=SCL)" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GPA(Pi=IO4)" type="passive"/>
+        <pin num="8" name="(Pi=TXT)IO1-U0TXD" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="(Pi=RXD)IO3-U0RXD" type="passive"/>
+        <pin num="11" name="GPA2(Pi=IO17)" type="passive"/>
+        <pin num="12" name="(Pi=IO18)GPC0" type="passive"/>
+        <pin num="13" name="GPA3(Pi=IO27)" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="GPA1(Pi=IO22)" type="passive"/>
+        <pin num="16" name="(Pi=IO23)U1TXD_IO4" type="passive"/>
+        <pin num="17" name="3V3_out" type="passive"/>
+        <pin num="18" name="(Pi=IO24)U1TXD_IO5" type="passive"/>
+        <pin num="19" name="IO13(MOSI)" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="IO12(MISO)" type="passive"/>
+        <pin num="22" name="(Pi=IO25)U2TXD_IO5" type="passive"/>
+        <pin num="23" name="IO14(SCLK)" type="passive"/>
+        <pin num="24" name="(Pi=IO8,CS0)IO15" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="(Pi=IO7,CS1)IO2" type="passive"/>
+        <pin num="27" name="GPA4(Pi=ID_SD)" type="passive"/>
+        <pin num="28" name="(Pi=ID_SC)GPA5" type="passive"/>
+        <pin num="29" name="GPC6(Pi=IO5)" type="passive"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="GPC5(Pi=IO6)" type="passive"/>
+        <pin num="32" name="(Pi=IO12)GPA7" type="passive"/>
+        <pin num="33" name="PGC4(Pi=IO13)" type="passive"/>
+        <pin num="34" name="GND" type="passive"/>
+        <pin num="35" name="IRQ_toESP(Pi=IO19)" type="passive"/>
+        <pin num="36" name="(Pi=IO16)GPA6" type="passive"/>
+        <pin num="37" name="IRQ_fromESP(Pi=IO26)" type="passive"/>
+        <pin num="38" name="(Pi=IO22)GPC7" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="(Pi=IO21)GPC2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_Switch">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Analog_Switch.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-GATEWAY_Rev_G">
+      <uri>/run/user/1000/gvfs/smb-share:server=192.168.178.100,share=public/projekte/scaladis/RFID_Schrank/ESP32_Olimex_Gateway/ESP32_Ethernet/ESP32-GATEWAY_Rev_G.lib</uri>
+    </library>
+    <library logical="Interface_Ethernet">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Interface_Ethernet.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Oscillator.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="michi1_copy">
+      <uri>/media/iwan/DATA/KicadLibs/michi1_copy.kicad_sym</uri>
+    </library>
+    <library logical="michi_new">
+      <uri>/home/iwan/kicad_libs/michi_new.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3VLAN">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="FET1" pin="3" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="X1" pin="4" pinfunction="Vdd" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="FET1" pin="2" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="3V3_out" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="LED3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="21" pinfunction="VCC" pintype="passive"/>
+      <node ref="U7" pin="21" pinfunction="VCC" pintype="passive"/>
+      <node ref="U7" pin="24" pinfunction="AD1" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="CM1" pin="1" pinfunction="AA" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="FET2" pin="3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="LED2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U9" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="4" name="/5V_from_HAT">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="FET2" pin="1" pintype="input"/>
+      <node ref="J6" pin="2" pinfunction="5V_in" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="5V_in" pintype="passive"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/ESP_EN">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="RST1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN(high=run)" pintype="input"/>
+    </net>
+    <net code="6" name="/ETH_REFCLOCLK">
+      <node ref="U2" pin="14" pinfunction="INT/REFCLKO" pintype="output"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/Eth_LEDGreen+">
+      <node ref="J1" pin="9" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/Eth_LEDGreen-">
+      <node ref="J1" pin="10" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="LED2/nINTSEL" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Eth_LEDYellow+">
+      <node ref="J1" pin="12" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="LED1/REGOFF" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/Eth_LEDYellow-">
+      <node ref="J1" pin="11" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="/Eth_RD+">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="RXP" pintype="output"/>
+    </net>
+    <net code="12" name="/Eth_RD-">
+      <node ref="J1" pin="6" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="RXN" pintype="output"/>
+    </net>
+    <net code="13" name="/Eth_TD+">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="TXP" pintype="output"/>
+    </net>
+    <net code="14" name="/Eth_TD-">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="TXN" pintype="output"/>
+    </net>
+    <net code="15" name="/Eth_TRcom">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="J1" pin="4" pintype="passive"/>
+      <node ref="J1" pin="5" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/GPIO0">
+      <node ref="D6" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="pu/EMAC_TX_CLK/IO0" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+    </net>
+    <net code="17" name="/GPIO1\U0TXD">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="18" name="/GPIO1{slash}U0TXD">
+      <node ref="JP1" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="U1" pin="35" pinfunction="U0TXD/IO1" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/GPIO2_esp32">
+      <node ref="D6" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="pd/GPIO2/MISO" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pintype="passive"/>
+    </net>
+    <net code="20" name="/GPIO2{slash}SPI_MISO">
+      <node ref="J5" pin="7" pinfunction="DAT0" pintype="input"/>
+      <node ref="J6" pin="21" pinfunction="IO12(MISO)" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/GPIO3\U0RXD">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/GPIO3{slash}U0RXD">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="U1" pin="34" pinfunction="U0RXD/IO3" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/GPIO4{slash}UHF_TXD_MOSI">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="(Pi=TXT)IO1-U0TXD" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="pd/U1TXD/IO4" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/GPIO5{slash}TFT_TXD_MOSI">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="pu/IO5" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/GPIO13{slash}SPI_CS">
+      <node ref="J5" pin="2" pinfunction="CD/DAT3" pintype="input"/>
+      <node ref="J6" pin="26" pinfunction="(Pi=IO7,CS1)IO2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="SPI_CS/MTCK/IO13" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/GPIO14{slash}SPI_SCK">
+      <node ref="J5" pin="5" pinfunction="CLK" pintype="input"/>
+      <node ref="J6" pin="23" pinfunction="IO14(SCLK)" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="SPI_SCK/MTMS/IO14" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/GPIO15{slash}SPI_MOSI">
+      <node ref="J5" pin="3" pinfunction="CMD" pintype="input"/>
+      <node ref="J6" pin="19" pinfunction="IO13(MOSI)" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="pu/SPI_MOSI/MTDO/IO15" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/GPIO18\MDIO(RMII)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="GPIO18\MDIO(RMII)" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="MDIO" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/GPIO19\EMAC_TXD0(RMII)">
+      <node ref="U1" pin="31" pinfunction="GPIO19\EMAC_TXD0(RMII)" pintype="bidirectional"/>
+      <node ref="U2" pin="17" pinfunction="TXD0" pintype="input"/>
+    </net>
+    <net code="30" name="/GPIO21\EMAC_TX_EN(RMII)">
+      <node ref="U1" pin="33" pinfunction="GPIO21\EMAC_TX_EN(RMII)" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="TXEN" pintype="input"/>
+    </net>
+    <net code="31" name="/GPIO22\EMAC_TXD1(RMII)">
+      <node ref="U1" pin="36" pinfunction="GPIO22\EMAC_TXD1(RMII)" pintype="bidirectional"/>
+      <node ref="U2" pin="18" pinfunction="TXD1" pintype="input"/>
+    </net>
+    <net code="32" name="/GPIO23\MDC(RMII)">
+      <node ref="U1" pin="37" pinfunction="GPIO23\MDC(RMII)" pintype="bidirectional"/>
+      <node ref="U2" pin="13" pinfunction="MDC" pintype="input"/>
+    </net>
+    <net code="33" name="/GPIO25\EMAC_RXD0(RMII)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GPIO25\EMAC_RXD0(RMII)" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="RXD0/MODE0" pintype="output"/>
+    </net>
+    <net code="34" name="/GPIO26\EMAC_RXD1(RMII)">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GPIO26\EMAC_RXD1(RMII)" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="RXD1/MODE1" pintype="output"/>
+    </net>
+    <net code="35" name="/GPIO27\EMAC_RX_CRS_DV">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GPIO27\EMAC_RX_CRS_DV" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="CRS_DV/MODE2" pintype="output"/>
+    </net>
+    <net code="36" name="/GPIO32_SCL">
+      <node ref="J6" pin="5" pinfunction="IO32(Pi=SCL)" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="IO32" pintype="bidirectional"/>
+      <node ref="U6" pin="19" pinfunction="SCL" pintype="passive"/>
+      <node ref="U7" pin="19" pinfunction="SCL" pintype="passive"/>
+    </net>
+    <net code="37" name="/GPIO33_SDA">
+      <node ref="J6" pin="3" pinfunction="IO33(Pi=SDA)" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IO33" pintype="bidirectional"/>
+      <node ref="U6" pin="20" pinfunction="SDA" pintype="passive"/>
+      <node ref="U7" pin="20" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="38" name="/HF_RXD_MISO">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="39" name="/HF_TXD_MOSI">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="40" name="/Header Pi/3V3">
+      <node ref="J6" pin="17" pinfunction="3V3_out" pintype="passive"/>
+    </net>
+    <net code="41" name="/Header Pi/Pi_ID_SCL">
+      <node ref="J6" pin="28" pinfunction="(Pi=ID_SC)GPA5" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="P1_3" pintype="passive"/>
+    </net>
+    <net code="42" name="/Header Pi/Pi_ID_SDA">
+      <node ref="J6" pin="27" pinfunction="GPA4(Pi=ID_SD)" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="P1_2" pintype="passive"/>
+    </net>
+    <net code="43" name="/Header Pi/Pi_IO4">
+      <node ref="J6" pin="7" pinfunction="GPA(Pi=IO4)" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="P1_0" pintype="passive"/>
+    </net>
+    <net code="44" name="/Header Pi/Pi_IO5">
+      <node ref="J6" pin="29" pinfunction="GPC6(Pi=IO5)" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="P1_1" pintype="passive"/>
+    </net>
+    <net code="45" name="/Header Pi/Pi_IO6">
+      <node ref="J6" pin="31" pinfunction="GPC5(Pi=IO6)" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="P1_2" pintype="passive"/>
+    </net>
+    <net code="46" name="/Header Pi/Pi_IO12">
+      <node ref="J6" pin="32" pinfunction="(Pi=IO12)GPA7" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="P1_3" pintype="passive"/>
+    </net>
+    <net code="47" name="/Header Pi/Pi_IO13">
+      <node ref="J6" pin="33" pinfunction="PGC4(Pi=IO13)" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="P1_4" pintype="passive"/>
+    </net>
+    <net code="48" name="/Header Pi/Pi_IO15">
+      <node ref="J6" pin="24" pinfunction="(Pi=IO8,CS0)IO15" pintype="passive"/>
+      <node ref="U6" pin="13" pinfunction="P0_7" pintype="passive"/>
+    </net>
+    <net code="49" name="/Header Pi/Pi_IO16">
+      <node ref="J6" pin="36" pinfunction="(Pi=IO16)GPA6" pintype="passive"/>
+      <node ref="U6" pin="15" pinfunction="P1_5" pintype="passive"/>
+    </net>
+    <net code="50" name="/Header Pi/Pi_IO17">
+      <node ref="J6" pin="11" pinfunction="GPA2(Pi=IO17)" pintype="passive"/>
+      <node ref="U6" pin="16" pinfunction="P1_6" pintype="passive"/>
+    </net>
+    <net code="51" name="/Header Pi/Pi_IO18">
+      <node ref="J6" pin="12" pinfunction="(Pi=IO18)GPC0" pintype="passive"/>
+      <node ref="U6" pin="17" pinfunction="P1_7" pintype="passive"/>
+    </net>
+    <net code="52" name="/Header Pi/Pi_IO20">
+      <node ref="J6" pin="38" pinfunction="(Pi=IO22)GPC7" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="P0_0" pintype="passive"/>
+    </net>
+    <net code="53" name="/Header Pi/Pi_IO21">
+      <node ref="J6" pin="40" pinfunction="(Pi=IO21)GPC2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="P0_1" pintype="passive"/>
+    </net>
+    <net code="54" name="/Header Pi/Pi_IO22">
+      <node ref="J6" pin="15" pinfunction="GPA1(Pi=IO22)" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="P0_2" pintype="passive"/>
+    </net>
+    <net code="55" name="/Header Pi/Pi_IO23">
+      <node ref="J6" pin="16" pinfunction="(Pi=IO23)U1TXD_IO4" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="P0_3" pintype="passive"/>
+    </net>
+    <net code="56" name="/Header Pi/Pi_IO24">
+      <node ref="J6" pin="18" pinfunction="(Pi=IO24)U1TXD_IO5" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="P0_4" pintype="passive"/>
+    </net>
+    <net code="57" name="/Header Pi/Pi_IO25">
+      <node ref="J6" pin="22" pinfunction="(Pi=IO25)U2TXD_IO5" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="P0_5" pintype="passive"/>
+    </net>
+    <net code="58" name="/Header Pi/Pi_IO26">
+      <node ref="J6" pin="37" pinfunction="IRQ_fromESP(Pi=IO26)" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="P1_1" pintype="passive"/>
+    </net>
+    <net code="59" name="/Header Pi/Pi_IO27">
+      <node ref="J6" pin="13" pinfunction="GPA3(Pi=IO27)" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="P0_6" pintype="passive"/>
+    </net>
+    <net code="60" name="/I2Cext_~{INT}">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="ADC7/IO35" pintype="input"/>
+      <node ref="U6" pin="22" pinfunction="nINT_OD" pintype="passive"/>
+      <node ref="U7" pin="22" pinfunction="nINT_OD" pintype="passive"/>
+    </net>
+    <net code="61" name="/Irq2ESP">
+      <node ref="J6" pin="35" pinfunction="IRQ_toESP(Pi=IO19)" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="ADC6/IO34" pintype="input"/>
+    </net>
+    <net code="62" name="/PHY_ADR0">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="RXER/PHYAD0" pintype="output"/>
+    </net>
+    <net code="63" name="/PHY_RESET#">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="64" name="/PSU/5V_USB">
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="FET2" pin="2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="U10" pin="19" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="65" name="/PSU/5V_unflt">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="CM1" pin="2" pinfunction="AB" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="/PSU/GND_unflt">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="CM1" pin="3" pinfunction="SA" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="U8" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="EP" pintype="passive"/>
+    </net>
+    <net code="67" name="/PhyPWR">
+      <node ref="T1" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="U3" pin="6" pintype="input"/>
+      <node ref="U7" pin="1" pinfunction="P1_0" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="68" name="/TFT_RXD_MISO">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IO39" pintype="input"/>
+    </net>
+    <net code="69" name="/UHF_RXD_MISO">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="(Pi=RXD)IO3-U0RXD" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IO36" pintype="input"/>
+    </net>
+    <net code="70" name="/VDD1A-2A">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VDD2A" pintype="power_in"/>
+      <node ref="U2" pin="19" pinfunction="VDD1A" pintype="power_in"/>
+    </net>
+    <net code="71" name="/VDDCR">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VDDCR" pintype="power_in"/>
+    </net>
+    <net code="72" name="/delayBoot">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pintype="input"/>
+      <node ref="U5" pin="6" pintype="input"/>
+    </net>
+    <net code="73" name="/usb_2_uart/D_Com">
+      <node ref="D6" pin="3" pinfunction="CC" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="GND">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="CM1" pin="4" pinfunction="SB" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="8" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J5" pin="P1" pinfunction="SHELL1" pintype="passive"/>
+      <node ref="J5" pin="P2" pinfunction="SHELL2" pintype="passive"/>
+      <node ref="J5" pin="P3" pinfunction="SHELL3" pintype="passive"/>
+      <node ref="J5" pin="P4" pinfunction="SHELL4" pintype="passive"/>
+      <node ref="J6" pin="14" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="20" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="30" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="34" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J8" pin="6" pinfunction="Shield" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="RST1" pin="2" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="GND" pintype="passive"/>
+      <node ref="U10" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="25" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="18" pinfunction="AD0" pintype="passive"/>
+      <node ref="U6" pin="24" pinfunction="AD1" pintype="passive"/>
+      <node ref="U6" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="18" pinfunction="AD0" pintype="passive"/>
+      <node ref="U7" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="FET1" pin="1" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="SH" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(D3-K)">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="8" pinfunction="PH" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(D4-K)">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="80" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="81" name="Net-(J4-Pin_14)">
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(J5-DAT1)">
+      <node ref="J5" pin="8" pinfunction="DAT1" pintype="input"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(J5-DAT2)">
+      <node ref="J5" pin="1" pinfunction="DAT2" pintype="input"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(J5-VDD)">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="85" name="Net-(J7-Pin_2)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="Vin" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(J8-D+)">
+      <node ref="J8" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U10" pin="6" pinfunction="UD+" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="Net-(J8-D-)">
+      <node ref="J8" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U10" pin="7" pinfunction="UD-" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="Net-(LED1-K)">
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(LED2-K)">
+      <node ref="LED2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(LED3-K)">
+      <node ref="LED3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(Q1-B)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(Q1-E)">
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="U10" pin="16" pinfunction="RTS#" pintype="output"/>
+    </net>
+    <net code="93" name="Net-(Q2-B)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(Q2-C)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(Q2-E)">
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U10" pin="15" pinfunction="DTR#" pintype="output"/>
+    </net>
+    <net code="96" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(T1-C)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="98" name="Net-(U1-pd/IO12)">
+      <node ref="U1" pin="14" pinfunction="pd/IO12" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pintype="passive"/>
+    </net>
+    <net code="99" name="Net-(U2-RBIAS)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="RBIAS" pintype="input"/>
+    </net>
+    <net code="100" name="Net-(U2-XTAL1/CLKIN)">
+      <node ref="U2" pin="5" pinfunction="XTAL1/CLKIN" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="101" name="Net-(U6-nRST)">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U6" pin="23" pinfunction="nRST" pintype="passive"/>
+    </net>
+    <net code="102" name="Net-(U7-nRST)">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U7" pin="23" pinfunction="nRST" pintype="passive"/>
+    </net>
+    <net code="103" name="Net-(U8-BOOT)">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="BOOT" pintype="passive"/>
+    </net>
+    <net code="104" name="Net-(U8-COMP)">
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="COMP" pintype="passive"/>
+    </net>
+    <net code="105" name="Net-(U8-EN)">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="EN" pintype="passive"/>
+    </net>
+    <net code="106" name="Net-(U8-SS)">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="SS" pintype="passive"/>
+    </net>
+    <net code="107" name="Net-(U8-Vsense)">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="Vsense" pintype="passive"/>
+    </net>
+    <net code="108" name="Net-(U10-V3)">
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="V3" pintype="power_in"/>
+    </net>
+    <net code="109" name="Net-(U10-XI)">
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="U10" pin="9" pinfunction="XI" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="110" name="Net-(U10-XO)">
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="U10" pin="10" pinfunction="XO" pintype="output"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(J1-Pad7)">
+      <node ref="J1" pin="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J4-Pin_5)">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J4-Pin_6)">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J4-Pin_7)">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J4-Pin_8)">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J4-Pin_11)">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J4-Pin_12)">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J4-Pin_13)">
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J4-Pin_15)">
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J5-CARD_DETECT)">
+      <node ref="J5" pin="9" pinfunction="CARD_DETECT" pintype="input+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(J5-WRITE_PROTECT)">
+      <node ref="J5" pin="10" pinfunction="WRITE_PROTECT" pintype="input+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(J8-ID)">
+      <node ref="J8" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(U1--)">
+      <node ref="U1" pin="28" pinfunction="-" pintype="no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U1--)_1">
+      <node ref="U1" pin="27" pinfunction="-" pintype="no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U1-NC)">
+      <node ref="U1" pin="32" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U1-SCK/CLK)">
+      <node ref="U1" pin="20" pinfunction="SCK/CLK" pintype="no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U1-SCS/CMD)">
+      <node ref="U1" pin="19" pinfunction="SCS/CMD" pintype="no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U1-SDI/SD1)">
+      <node ref="U1" pin="22" pinfunction="SDI/SD1" pintype="no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U1-SDO/SD0)">
+      <node ref="U1" pin="21" pinfunction="SDO/SD0" pintype="no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U1-SHD/SD2)">
+      <node ref="U1" pin="17" pinfunction="SHD/SD2" pintype="no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U1-SWP/SD3)">
+      <node ref="U1" pin="18" pinfunction="SWP/SD3" pintype="no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U2-XTAL2)">
+      <node ref="U2" pin="4" pinfunction="XTAL2" pintype="passive+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U4-Pad3)">
+      <node ref="U4" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U7-P0_0)">
+      <node ref="U7" pin="5" pinfunction="P0_0" pintype="passive+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U7-P0_1)">
+      <node ref="U7" pin="6" pinfunction="P0_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U7-P0_2)">
+      <node ref="U7" pin="7" pinfunction="P0_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U7-P0_3)">
+      <node ref="U7" pin="8" pinfunction="P0_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U7-P0_4)">
+      <node ref="U7" pin="10" pinfunction="P0_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U7-P0_5)">
+      <node ref="U7" pin="11" pinfunction="P0_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U7-P0_6)">
+      <node ref="U7" pin="12" pinfunction="P0_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U7-P0_7)">
+      <node ref="U7" pin="13" pinfunction="P0_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U7-P1_4)">
+      <node ref="U7" pin="14" pinfunction="P1_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U7-P1_5)">
+      <node ref="U7" pin="15" pinfunction="P1_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U7-P1_6)">
+      <node ref="U7" pin="16" pinfunction="P1_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U7-P1_7)">
+      <node ref="U7" pin="17" pinfunction="P1_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U9-NC)">
+      <node ref="U9" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U10-ACT#)">
+      <node ref="U10" pin="2" pinfunction="ACT#" pintype="passive+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U10-CK0)">
+      <node ref="U10" pin="1" pinfunction="CK0" pintype="passive+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U10-CTS#)">
+      <node ref="U10" pin="11" pinfunction="CTS#" pintype="input+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U10-DCD#)">
+      <node ref="U10" pin="14" pinfunction="DCD#" pintype="input+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U10-DSR#)">
+      <node ref="U10" pin="12" pinfunction="DSR#" pintype="input+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U10-IR#)">
+      <node ref="U10" pin="17" pinfunction="IR#" pintype="input+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U10-NOS#)">
+      <node ref="U10" pin="20" pinfunction="NOS#" pintype="input+no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U10-RI#)">
+      <node ref="U10" pin="13" pinfunction="RI#" pintype="input+no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U10-RS232)">
+      <node ref="U10" pin="18" pinfunction="RS232" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
