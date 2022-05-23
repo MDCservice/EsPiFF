@@ -35,6 +35,8 @@ So we made the decision, to build a replacement, what is focused on high-reliabi
 ### Version 1
 The first version of the EsPiFF was born in a time, where all Ethernet Phy chips was unavailable. Our first prototype used a Waveshare LAN8720 module. Chip crysis! Interestingly, even no LAN8720 chips could be bought anywhere, but the modules was still available. Because the Waveshare module did not route the enable signal to the pin header, but left one pin unconnected on the pin header, we had to solder a wire from the oscillator to that unused pin on the header. After these, the board run well, and do so till now. We added 4 high side switches, and digital inputs to operate 4 door locks. These are the 4 white connectors opposite the RJ45 connectors. The Version 1 had the WROOM module of the ESP32.  
 
+![The Version 1](/images/espiff_V1_top.jpg)
+
 We ported the PostgreSQL client libray to the ESP32, what worked very well, even with the limited RAM and Flash. Not only SELECT, INSERT and UPDATE work, but also the brilliant PostgreSQL feature NOTIFY. As a result, the EsPiFF dont need to poll the PostgreSQL server, but get notified instead. We could define a trigger in PostgreSQL, and notify other EsPiFF board. Thats very cool.
 
 Because of the ongoing chip crysis, we only select parts, what are available. 
