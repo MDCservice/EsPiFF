@@ -20,6 +20,8 @@ The EsPiFF V3 will bring the following
  - RTC Realtime clock
  - USB-A connector for USB-Host
 
+## Why an ESP32 in the Raspberry Pi Form Factor?
+
 We desided, to build an alternative to the Raspberry Pi for our projects and products. 
 As many other as well, we was using the Raspberry Pi in our products, adding electronic payment to existing vending machines and coffee machines, in RFID solutions to read RFID tags in laundry, and other application. While it was easy to get a solution up and running in a short time, over time we got a log of trouble resulting for using the Pi. 
 
