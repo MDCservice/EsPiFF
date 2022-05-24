@@ -71,6 +71,9 @@ With the 8 port RAIN UHF reader/writer from Chafon, we can monitor a whole area 
 
 In our application, we read/write direct to a PostgreSQL database, connected by wired ethernet, thats why we have ported the LibPQ (the PostgreSQL client library) to the ESP32. The use of other techniques, like MQTT, is also possible. 
 
+Picture: the open 3D printed enclsure, showing the Nextion 5'' TFT, and the TWN4 HF RFID reader
+![HMI, RFID reader and EsPiff](/images/HMI_TWN4_enclosure3.jpg )
+
 After the EsPiFF is now mature enough, we we are preparing a campaign at Crowd Supply. After the Pre-launch page will be available, we will update the info here. Hope you support us on our Crowd Supply campaign!
 
 Team MDC
