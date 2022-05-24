@@ -58,17 +58,19 @@ This is the planned final version. Additional to the fix of the 2 known issues, 
  - adding a RP2040 co-processor. The ESP32 just not have enough pins free, to operate all the pins on the Raspberry Pi 40pin header. The last solution with the I2C port expander is too slow and unflexible. The much more powerfull RP2040 will solve these problem. It also offers an USB host port!
  - add a USB-A connector, to program the RP2040, and to enable to connect USB devices like keyboard, mouse, USB-sticks and so on. 
 
-After the EsPiFF is now mature enough, we we are preparing a campaign at Crowd Supply. After the Pre-launch page will be available, we will update the info here. Hope you support us on our Crowd Supply campaign!
-
 ## Typical applications
 
 
 ![HMI, RFID reader and EsPiff](/images/espiff_HMI_RFID_Rain.jpg )
 
-This example show, how a Nextion 5 inch TFT, a HF RFID reader from Elatec (TWN4), a Chafon 8 channel RAIN UHF-RFID reader and a 3D printed enclosure can form an electronic identification system. We put the source code and the 3D design into the example folder. 
+This example show, how a Nextion 5 inch TFT, a HF RFID reader from Elatec (TWN4), a Chafon 8 channel RAIN UHF-RFID reader and a 3D printed enclosure can form an electronic identification system. We put the source code and the 3D design files into the example folder. Smaller or bigger Nextion TFTs can be used, when you adapt the 3D design. 
 
 The HMI interact with the user, ask him/her to put the HF-RFID card on the card reader. The TWN4 from Elatec is able to read near any LF or HF card, inclding the LEGIC chips used in many high secure access control applications. The TWN4 is inside the 3D printed enclosure, as well as the Nextion TFT.
 
 With the 8 port RAIN UHF reader/writer from Chafon, we can monitor a whole area with up to 8 antennas. We use it to monitor 4 cabinets, other use cases could be the monitoring a whole room/warehouse, or the entrance of buiildings,etc. Chafon offer 1, 4, 8 and 16 port devices, and they are all compatible with the software. 
+
+In our application, we read/write direct to a PostgreSQL database, connected by wired ethernet, thats why we have ported the LibPQ (the PostgreSQL client library) to the ESP32. The use of other techniques, like MQTT, is also possible. 
+
+After the EsPiFF is now mature enough, we we are preparing a campaign at Crowd Supply. After the Pre-launch page will be available, we will update the info here. Hope you support us on our Crowd Supply campaign!
 
 Team MDC
