@@ -1,8 +1,0 @@
-netip=192.168.178.222
-netma=255.255.255.0
-netgw=192.168.178.1
-srvip=192.168.178.115
-srvpo=5432
-boxid=1
-subbx=2
-dbnam=scaladis
