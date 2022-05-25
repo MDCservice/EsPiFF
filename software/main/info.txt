@@ -1,0 +1,1 @@
+example project with useage of SD-card, PostgreSQL client, HF-card reader, Nextion HMI
