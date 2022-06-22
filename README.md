@@ -22,14 +22,11 @@ The EsPiFF V3 will bring the following
 
 ## Why an ESP32 in the Raspberry Pi Form Factor?
 
-We desided, to build an alternative to the Raspberry Pi for our projects and products. 
-As many other as well, we was using the Raspberry Pi in our products, adding electronic payment to existing vending machines and coffee machines, in RFID solutions to read RFID tags in laundry, and other application. While it was easy to get a solution up and running in a short time, over time we got a lot of problems resulting from using the Pi. 
-
-A key problem of the Pi's design is, to relay on an SD-card. The SD-cards are made for digital cameras, to write on them a few times. A Linux system like the Pi on the other hand, is writing permanent its log files, and swap partition, to the SD-card. As a result, after a short time, the SD-card break and the application crash. High-end industrial SD-card hold longer, but finally still break. An industrial controller simply can not base on a SD-card. Period. 
-
-The PI Operating system is also great for fast bring-up of a solution, but its more and more focused on media streaming then real-time tasks. It gets more and more overloaded with each new version. 
-
-So we made the decision, to build a replacement, what is focused on high-reliability, but still enable the use of Raspberry Pi universum of add-ons, like HATs and enclosures. We choose the ESP32 dual core, 2x240MHz WROVER module with 8MB PSRAM and 16MB Flash. The EsPiFF, the **Es**p32 in Raspberry **Pi** **F**orm **F**actor was born.
+We decided to build an alternative to the Raspberry Pi for our projects and products. As many others we were using the Raspberry Pi in our products, adding electronic payment to existing vending machines and coffee machines, in RFID solutions to read RFID tags in laundry and other application. 
+While it was easy to get a solution up and running in a short time, over time we got a lot of problems resulting from using the Pi.
+A key problem of the Pi's design is, to rely on an SD-card. The SD-cards are made for digital cameras, to write on them a few times. A Linux system like the Pi on the other hand, is writing permanent its log files and swap partition or to the SD-card. As a result, after some months the SD-card broke and the application crashed. High-end industrial SD-card lasted longer, but finally still broke. An industrial controller simply can not base on a SD-card.
+The PI Operating system is also great for fast bring-up of a solution, but its more and more focused on media streaming then real-time tasks. It gets more and more overloaded with each new version.
+So we made the decision, to build a replacement, which is focused on high-reliability, but still enable the use of Raspberry Pi universum of add-ons, like HATs and enclosures. We choose the ESP32 dual core, 2x240MHz WROVER module with 8MB PSRAM and 16MB Flash.  The EsPiFF, the **Es**p32 in Raspberry **Pi** **F**orm **F**actor was born.
 
 ## History
 ### Version 1
@@ -39,7 +36,7 @@ Picture: the Version 1 of the EsPiFF
 
 ![The Version 1](/images/espiff_v1_top.jpg)
 
-We ported the PostgreSQL client libray to the ESP32, what worked very well, even with the limited RAM and Flash. Not only SELECT, INSERT and UPDATE work, but also the brilliant PostgreSQL feature NOTIFY. As a result, the EsPiFF dont need to poll the PostgreSQL server, but get notified instead. We could define a trigger in PostgreSQL, and notify other EsPiFF board. Thats very cool.
+We ported the PostgreSQL client libray, based on (SimplePgPSQL)[https://github.com/ethanak/SimplePgSQL] to the EsPiFF, what worked very well, even with the limited RAM and Flash. Not only SELECT, INSERT and UPDATE work, but also the brilliant PostgreSQL feature NOTIFY. As a result, the EsPiFF dont need to poll the PostgreSQL server, but get notified instead. We could define a trigger in PostgreSQL, and notify other EsPiFF board. Thats very cool.
 
 Because of the ongoing chip crysis, we only select parts, what are available. 
 
@@ -58,10 +55,16 @@ This is the planned final version. Additional to the fix of the 2 known issues, 
  - adding a RP2040 co-processor. The ESP32 just not have enough pins free, to operate all the pins on the Raspberry Pi 40pin header. The last solution with the I2C port expander is too slow and unflexible. The much more powerfull RP2040 will solve these problem. It also offers an USB host port!
  - add a USB-A connector, to program the RP2040, and to enable to connect USB devices like keyboard, mouse, USB-sticks and so on. 
 
+![The Version 3](/images/espiff_v3_board-annotated-400.png)
+
+This is the current progress. We managed, to bring all the functionality on the board. We selected a 6 layer PCB, for best signal integrity.
+We also added a (EtherSIB)[https://github.com/ethanak/SimplePgSQL] Master connector, for our upcomming EtherSIB project. 
+
+
 ## Typical applications
 
 
-![HMI, RFID reader and EsPiff](/images/espiff_HMI_RFID_Rain.jpg )
+![HMI, RFID reader and EsPiff-V2](/images/espiff_HMI_RFID_Rain.jpg )
 
 This example show, how a Nextion 5 inch TFT, a HF RFID reader from Elatec (TWN4), a Chafon 8 channel RAIN UHF-RFID reader and a 3D printed enclosure can form an electronic identification system. We put the source code and the 3D design files into the example folder. Smaller or bigger Nextion TFTs can be used, when you adapt the 3D design. 
 
@@ -72,7 +75,7 @@ With the 8 port RAIN UHF reader/writer from Chafon, we can monitor a whole area 
 In our application, we read/write direct to a PostgreSQL database, connected by wired ethernet, thats why we have ported the LibPQ (the PostgreSQL client library) to the ESP32. The use of other techniques, like MQTT, is also possible. 
 
 Picture: the open 3D printed enclsure, showing the Nextion 5'' TFT, and the TWN4 HF RFID reader
-![HMI, RFID reader and EsPiff](/images/HMI_TWN4_enclosure3.jpg )
+![HMI, RFID reader and EsPiff-V2](/images/HMI_TWN4_enclosure3.jpg )
 
 After the EsPiFF is now mature enough, we we are preparing a campaign at Crowd Supply. After the Pre-launch page will be available, we will update the info here. Hope you support us on our Crowd Supply campaign!
 
