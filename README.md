@@ -41,6 +41,8 @@ We ported the PostgreSQL client libray, based on [SimplePgPSQL](https://github.c
 Because of the ongoing chip crysis, we only select parts, what are available. 
 
 ### Version 2
+
+![The Version 2](/images/espiff_angehoben.jpg) 
 After the LAN8720 chips got available again, we decided to make a new board revision. These are the current boards. We used the ESP32-WROVER module, for additional 8MB PSRAM and 16MB Flash. We also added an SD-card. Unfortunately, we used the wrong pinout, make it very difficult to change the SD-card. An other issue was a missing pull-up resistor on the LAN8720. 
 We changed the USB connector to a Type-C connector, and configured it so, that 5V and up to 3A can be taken. Thats a big improvement, raising the available power from 0.5W to 15W. We removed the 4 door lock connectors, and put them on a HAT. 
 Since version 1 we have a "Chafon-Connector", next to the USB connector. It is to connect the Chafon RFID Rain(UHF) modules. Additional, we replaced the UART pin headers with more robust JST connectors, left and right of the SD-card. 
