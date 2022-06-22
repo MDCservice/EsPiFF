@@ -58,7 +58,7 @@ This is the planned final version. Additional to the fix of the 2 known issues, 
 ![The Version 3](/images/espiff_v3_board-annotated-400.png)
 
 This is the current progress. We managed, to bring all the functionality on the board. We selected a 6 layer PCB, for best signal integrity.
-We also added a (EtherSIB)[https://github.com/ethanak/SimplePgSQL] Master connector, for our upcomming EtherSIB project. 
+We also added a (EtherSIB)[https://github.com/MDCservice/EtherSIB] Master connector, for our upcomming EtherSIB project. 
 
 
 ## Typical applications
