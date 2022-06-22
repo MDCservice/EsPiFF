@@ -55,7 +55,7 @@ This is the planned final version. Additional to the fix of the 2 known issues, 
  - adding a RP2040 co-processor. The ESP32 just not have enough pins free, to operate all the pins on the Raspberry Pi 40pin header. The last solution with the I2C port expander is too slow and unflexible. The much more powerfull RP2040 will solve these problem. It also offers an USB host port!
  - add a USB-A connector, to program the RP2040, and to enable to connect USB devices like keyboard, mouse, USB-sticks and so on. 
 
-![The Version 3](/images/espiff_v3_board-annotated-400.png)
+![The Version 3](/images/espiff_v3_board-annotated.png)
 
 This is the current progress. We managed, to bring all the functionality on the board. We selected a 6 layer PCB, for best signal integrity.
 We also added a [EtherSIB](https://github.com/MDCservice/EtherSIB) Master connector, for our upcomming EtherSIB project. EtherSIB will offer 2x600MBit bandwith, a collision-free Field bus like EtherCAT, SerCOM, ProfiNET and others, just faster.  
