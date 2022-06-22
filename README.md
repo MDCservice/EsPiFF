@@ -36,7 +36,7 @@ Picture: the Version 1 of the EsPiFF
 
 ![The Version 1](/images/espiff_v1_top.jpg)
 
-We ported the PostgreSQL client libray, based on (SimplePgPSQL)[https://github.com/ethanak/SimplePgSQL] to the EsPiFF, what worked very well, even with the limited RAM and Flash. Not only SELECT, INSERT and UPDATE work, but also the brilliant PostgreSQL feature NOTIFY. As a result, the EsPiFF dont need to poll the PostgreSQL server, but get notified instead. We could define a trigger in PostgreSQL, and notify other EsPiFF board. Thats very cool.
+We ported the PostgreSQL client libray, based on [SimplePgPSQL](https://github.com/ethanak/SimplePgSQL) to the EsPiFF, what worked very well, even with the limited RAM and Flash. Not only SELECT, INSERT and UPDATE work, but also the brilliant PostgreSQL feature NOTIFY. As a result, the EsPiFF dont need to poll the PostgreSQL server, but get notified instead. We could define a trigger in PostgreSQL, and notify other EsPiFF board. Thats very cool.
 
 Because of the ongoing chip crysis, we only select parts, what are available. 
 
@@ -58,7 +58,7 @@ This is the planned final version. Additional to the fix of the 2 known issues, 
 ![The Version 3](/images/espiff_v3_board-annotated-400.png)
 
 This is the current progress. We managed, to bring all the functionality on the board. We selected a 6 layer PCB, for best signal integrity.
-We also added a (EtherSIB)[https://github.com/MDCservice/EtherSIB] Master connector, for our upcomming EtherSIB project. 
+We also added a [EtherSIB](https://github.com/MDCservice/EtherSIB) Master connector, for our upcomming EtherSIB project. EtherSIB will offer 2x600MBit bandwith, a collision-less Field bus like EtherCAT, SerCOM, ProfiNET and others, just faster.  
 
 
 ## Typical applications
