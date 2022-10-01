@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Espressif")(type "KiCad")(uri "/mnt/nfs/home/samba/projekte/kicad_libs/esp32/footprints/Espressif.pretty")(options "")(descr ""))
+  (lib (name "molex_sdcard")(type "KiCad")(uri "/home/micha/kicad_libs/molex_sdcard")(options "")(descr ""))
+)

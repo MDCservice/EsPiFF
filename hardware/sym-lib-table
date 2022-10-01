@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "MDC")(type "KiCad")(uri "/mnt/nfs/home/samba/projekte/kicad_libs/MDC.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "/mnt/nfs/home/samba/projekte/kicad_libs/esp32/libraries/Espressif.kicad_sym")(options "")(descr ""))
+)
