@@ -3,7 +3,7 @@ An ESP32 in the Raspberry Pi form factor
 
 ## Meet the EsPiFF - The ESP32 in the Raspberry Pi 4 form factor
 
-![The EsPiFF](/images/espiff_angehoben.jpg)
+![The EsPiFF](/images/espiff_v3_top1.jpg)
 
 For applications, where the Raspberry Pi 4 is not robust enough, or take too much power, you can consider the EsPiFF as an option.
 The EsPiFF (V2) brings
@@ -61,6 +61,8 @@ This is the planned final version. Additional to the fix of the 2 known issues, 
 
 This is the current progress. We managed, to bring all the functionality on the board. We selected a 6 layer PCB, for best signal integrity.
 We also added a [EtherSIB](https://github.com/MDCservice/EtherSIB) Master connector, for our upcomming EtherSIB project. EtherSIB will offer 2x600MBit bandwith, a collision-free Field bus like EtherCAT, SerCOM, ProfiNET and others, just faster.  
+
+We finally replaced the LAN8720 Ethernet PHY by an IP101, as used in the Espressif Ethernet reference design. The LAN8720 showed stability problems, in combination with the ESP32-WROVER (it is working well with the ESP32-WROOM). Other projects with the ESP32-WROVER - LAN8720 combination (wESP, Olimex) seem to had the same problems, and also switched away from the LAN8720. On this point, a big "Thank you" to Ondrej from Espressif for all of his support in this field.  
 
 
 ## Typical applications
