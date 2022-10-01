@@ -3,7 +3,7 @@ An ESP32 in the Raspberry Pi form factor
 
 ## Meet the EsPiFF - The ESP32 in the Raspberry Pi 4 form factor
 
-![The EsPiFF](/images/espiff_v3_top1.jpg)
+![The EsPiFF](/images/espiff_v3.1.jpg)
 
 For applications, where the Raspberry Pi 4 is not robust enough, or take too much power, you can consider the EsPiFF as an option.
 The EsPiFF (V2) brings
@@ -56,14 +56,17 @@ This is the planned final version. Additional to the fix of the 2 known issues, 
  - replace the WROVER module with a version with u.FL/IPEX connector. This enables an external antenna, longer range, mounting inside a metal enclosure with the antenna outside the enclosure.
  - adding a RP2040 co-processor. The ESP32 just not have enough pins free, to operate all the pins on the Raspberry Pi 40pin header. The last solution with the I2C port expander is too slow and unflexible. The much more powerfull RP2040 will solve these problem. It also offers an USB host port!
  - add a USB-A connector, to program the RP2040, and to enable to connect USB devices like keyboard, mouse, USB-sticks and so on. 
+ - add an HMI connector next to the SDcard socket. This is for our upcomming TFT displays, but can be used for UART based TFTs like the Nextion as well. 
 
-![The Version 3](/images/espiff_v3_board-annotated.png)
 
 This is the current progress. We managed, to bring all the functionality on the board. We selected a 6 layer PCB, for best signal integrity.
-We also added a [EtherSIB](https://github.com/MDCservice/EtherSIB) Master connector, for our upcomming EtherSIB project. EtherSIB will offer 2x600MBit bandwith, a collision-free Field bus like EtherCAT, SerCOM, ProfiNET and others, just faster.  
 
-We finally replaced the LAN8720 Ethernet PHY by an IP101, as used in the Espressif Ethernet reference design. The LAN8720 showed stability problems, in combination with the ESP32-WROVER (it is working well with the ESP32-WROOM). Other projects with the ESP32-WROVER - LAN8720 combination (wESP, Olimex) seem to had the same problems, and also switched away from the LAN8720. On this point, a big "Thank you" to Ondrej from Espressif for all of his support in this field.  
+![The Version 3](/images/espiff_v3.1.jpg)
 
+
+We finally replaced the LAN8720 Ethernet PHY by an IP101, as used in the Espressif Ethernet reference design. The LAN8720 showed stability problems, in combination with the ESP32-WROVER (it is working well with the ESP32-WROOM). Other projects with the ESP32-WROVER - LAN8720 combination (wESP, Olimex) seem to had the same problems, and also switched away from the LAN8720. On this point, a big "Thank you" to Ondrej from Espressif for all of his support in this field. 
+
+We also ordered customized cables, for the DF11 and display connectors, what offer DuPont on the opposite side. With these cables, breadbord or Nextion displays, or other 2.54mm headers can easily connected. 
 
 ## Typical applications
 
