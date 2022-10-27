@@ -88,4 +88,10 @@ After the EsPiFF is now mature enough, we we are preparing a campaign at Crowd S
 
 Please notice, that the ESP32-module PCB antenna can not be used, an external wifi antenna is required. This is because of space restrictions, the RasPi form factor not allow us to make the board larger, and there is simply no space left for the required keepout area for the PCB antenna. Most people will use a metal enclosure, what renders a PCB antenna useless anyway. We still have to use an ESP32-WROVER module containing a PCB antenna, because only these modules have 16 MB Flash, 8 MB PSRAM, and all the features we build in. Other modules, for example the ESP32-S3, does not have Ethernet MII. 
 
+Apache Nuttx can run on the EsPiFF!
+Next the wellknown FreeRTOS, there is an other, not so wellknown operating system supporting ESP32 and friends: Apache Nuttx (https://nuttx.apache.org).
+It has a very cool feature: runtime loading of ELF files (for example, from SDcard) into RAM, and then execute it in RAM. Very much like Windows/Linux/MacOS are doing it. Imagine, you can send a SDcard to your customer for software-update. Bye bye over the air(OTA) updates in enviroments, where OTA is not allowed.
+
+![Nuttx 11.0 on EsPiff-V3.1](/images/Espiff_boot_nuttx.png)
+
 Team MDC
