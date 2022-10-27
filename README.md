@@ -92,6 +92,6 @@ Apache Nuttx can run on the EsPiFF!
 Next the wellknown FreeRTOS, there is an other, not so wellknown operating system supporting ESP32 and friends: Apache Nuttx (https://nuttx.apache.org).
 It has a very cool feature: runtime loading of ELF files (for example, from SDcard) into RAM, and then execute it in RAM. Very much like Windows/Linux/MacOS are doing it. Imagine, you can send a SDcard to your customer for software-update. Bye bye over the air(OTA) updates in enviroments, where OTA is not allowed.
 
-![Nuttx 11.0 on EsPiff-V3.1](/images/Espiff_boot_nuttx.png)
+![Nuttx 11.0 on EsPiff-V3.1](/images/Espiff_boot_nuttx1.png)
 
 Team MDC
