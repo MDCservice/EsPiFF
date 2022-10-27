@@ -8,7 +8,7 @@ An ESP32 in the Raspberry Pi form factor
 For applications, where the Raspberry Pi 4 is not robust enough, or take too much power, you can consider the EsPiFF as an option.
 The EsPiFF (V2) brings
  - ESP32-WROVER with dual core, 8MB PSRAM, 16 MB Flash
- - Ethernet wired and Wifi
+ - Ethernet wired and Wifi (Wifi need an external antenna with an uFL connector)
  - SD-card for data storage
  - up to 3 UARTs
  - an USB-C connector for power supply up to 5V, 3A
@@ -85,5 +85,7 @@ Picture: the open 3D printed enclsure, showing the Nextion 5'' TFT, and the TWN4
 ![HMI, RFID reader and EsPiff-V2](/images/HMI_TWN4_enclosure3.jpg )
 
 After the EsPiFF is now mature enough, we we are preparing a campaign at Crowd Supply. After the Pre-launch page will be available, we will update the info here. Hope you support us on our Crowd Supply campaign!
+
+Please notice, that the ESP32-module PCB antenna can not be used, an external wifi antenna is required. This is because of space restrictions, the RasPi form factor not allow us to make the board larger, and there is simply no space left for the required keepout area for the PCB antenna. Most people will use a metal enclosure, what renders a PCB antenna useless anyway. We still have to use an ESP32-WROVER module containing a PCB antenna, because only these modules have 16 MB Flash, 8 MB PSRAM, and all the features we build in. Other modules, for example the ESP32-S3, does not have Ethernet MII. 
 
 Team MDC
