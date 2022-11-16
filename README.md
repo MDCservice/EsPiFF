@@ -61,6 +61,12 @@ This is the planned final version. Additional to the fix of the 2 known issues, 
 
 This is the current progress. We managed, to bring all the functionality on the board. We selected a 6 layer PCB, for best signal integrity.
 
+The ESP32 can communicate with the RP2040 via SPI, where the ESP32 is the SPI master. Depend on the requirements, the communication protocol can be implemented application specific, with ether the Espressif IDF or Arduino IDE. Or an existing SPI driver from, for example NuttX, could be used on the ESP side, and the RP2040 emulating for example an SD card or a SPI Flash.
+
+One more option is to run [Firmata](https://github.com/firmata/ConfigurableFirmata) on the RP2040. This is a popular way for Arduino developers, to remote control and Arduino/RP2040 from a host computer, here the ESP32. For now, Firmata only supports UART communication, whats is also possible on the EsPiFF.
+
+Because all pins on both the ESP32 and the RP2040 are used already, there are no decidated interupt pins between ESP32 and RP2040. The software should implement software interupts, when i.e. the receiving buffer reaches a certain level. 
+
 ![The Version 3](/images/espiff_v3.1.jpg)
 
 
