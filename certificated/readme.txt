@@ -1,1 +1,0 @@
-Certifications for EU countries
