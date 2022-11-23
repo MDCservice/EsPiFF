@@ -101,6 +101,7 @@ It has a very cool feature: runtime loading of ELF files (for example, from SDca
 ![Nuttx 11.0 on EsPiff-V3.1](/images/Espiff_boot_nuttx1.png)
 
 ESP32 <> RP2040 interconnection
+
 ![ESP32 <> RP2040](/images/ESP32_RP2040_interconnect.png)
 
 Team MDC
