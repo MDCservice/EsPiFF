@@ -102,6 +102,6 @@ It has a very cool feature: runtime loading of ELF files (for example, from SDca
 
 ESP32 <> RP2040 interconnection
 
-![ESP32 <> RP2040](/images/ESP32_RP2040_interconnect.png)
+![ESP32 <> RP2040](/images/ESP32_RP2040_interconnect_blabla.png)
 
 Team MDC
