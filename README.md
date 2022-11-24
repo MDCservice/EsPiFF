@@ -104,4 +104,13 @@ ESP32 <> RP2040 interconnection
 
 ![ESP32 <> RP2040](/images/ESP32_RP2040_interconnect.png)
 
+Latest news:
+We just finish the layout of the version 3.2, the version the crowd supply backer will get. Few interesting things:
+- We added not only Flash footprints for the ESP32, but also a footprint for an unpopulated SPI RAM for the RP2040. If you need up to 64 MBit SPI RAM for the RP2040, you can just mount an easy to solder SOIC-8 IC on the bottom, and you have 30 times(!) the RAM a normal RP2040 have. 
+
+Because several people mention the integrated PCB antenna, the version 3.2 offer at least a basic use of the PCB antenna. Still, the external PCB antenna is the prefered way to use Wifi with the EsPiFF, now to use the integrated PCB antenna as well. 
+Keep in mind, that the ESP32-WROVER-IB module requires a solder jumper modification before the PCB antenna can be used. 
+![ESP32 Wifi ](/images/espiff_v32_bottom_layout.png)
+
+
 Team MDC
