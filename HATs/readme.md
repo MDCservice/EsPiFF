@@ -20,6 +20,8 @@ The analog IO HAT offers 4 analog inputs and 4 analog outputs. Each input and ou
 
 The ADCs are build by analog-to-PWM converters, to allow syncron sampling and save galvanic isolation. For the same reason, the DACs are build by PWM-to-analog converters. This offers the unique feature, that all analog inputs and outputs can be synchronous set with ns accuracy, what typical SPI or I2C based  converters can never offer. To read and set the converters, 4 PWM cannals, and 4 Pulse width measurement units are needed. This is a perfect job for the PIOs of the EsPiFF. A Raspberry Pi offer only 2 (hardware) PWM channels, so a PI would not be a good platform for this kind of converters.
 
+Extra care has been taken to implement a low noise power supply: a galvanic isolated PSU module generates 15 Volt. A team of ferrite beads, common mode chokes and ultra low noise linear regulators filter out all noise from the switching regulators and outside world. Only this very careful design enables 15 bit net out of the 16 bit ADCs.  
+
 ****EsPiFF-PLC build from a EsPiFF, an digital and an analog HAT****
 ![HAT_espiff_stack](https://user-images.githubusercontent.com/96583658/206692327-288ef2ea-761b-4ec7-8b8e-1435d0be7dfb.jpg)
 
