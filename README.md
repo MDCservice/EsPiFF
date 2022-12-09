@@ -20,6 +20,10 @@ The EsPiFF V3 will bring the following
  - RTC Realtime clock
  - USB-A connector for USB-Host
 
+![HAT_dio](https://raw.githubusercontent.com/MDCservice/EsPiFF/main/images/HAT_espiff_stack.jpg)
+EsPiFF-PLC
+
+
 ## Why an ESP32 in the Raspberry Pi Form Factor?
 
 We decided to build an alternative to the Raspberry Pi for our projects and products. As many others we were using the Raspberry Pi in our products, adding electronic payment to existing vending machines and coffee machines, in RFID solutions to read RFID tags in laundry and other application. 
